@@ -1,2 +1,19 @@
+// CUSTOM IMPORTS
+@import 'variables';
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+// MIXINS
+
+// CUSTOM LAYOUT
+
+// CUSTOM STYLE
+// #navbar--main {
+//   @include media-breakpoint-up(md) {
+//     height: 50px;
+//   }
+// }
+
+// IMPORT BOOTSTRAP
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// RESPONSIVE CUSTOMS
+@import 'responsive';
