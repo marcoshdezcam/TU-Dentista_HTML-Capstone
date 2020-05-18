@@ -7,12 +7,12 @@
     <meta name="description" content="" />
     <meta name="author" content="Marcos Hernández Campos" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="fontawesome/all.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="fontawesome/all.min.css" />
   </head>
   <body>
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 h-100" id="wrapper-all">
       <nav
-        class="navbar flex-column flex-md-row navbar-light bg-primary"
+        class="navbar flex-column flex-md-row navbar-light bg-primary h-auto"
         id="navbar--main"
       >
         <a class="navbar-brand mx-auto mx-md-1" href="#">
@@ -27,8 +27,8 @@
         <ul class="nav justify-content-end">
           <li class="nav-item">
             <a class="nav-link text-white text-uppercase active" href="#"
-              >Home</a
-            >
+              ><i class="fas fa-home"></i
+            ></a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white text-uppercase" href="#">Dentists</a>
@@ -61,6 +61,33 @@
           </li>
         </ul>
       </nav>
+      <main class="h-auto">
+        <section
+          class="p-4 h-100 d-flex flex-column justify-content-center"
+          id="hero"
+          alt="Image from: http://www.freepik.com"
+        >
+          <h1 class="text-white">Find the best dentist near you</h1>
+          <h2 class="text-white">Rate them based on your experience</h2>
+          <form class="bg-wrapper--white text-uppercase m-4 p-4">
+            <div class="form-group">
+              <label for="search-keyboard">Search by keboard:</label>
+              <input
+                type="text"
+                class="form-control rounded"
+                id="search-keyboard"
+                placeholder=""
+              />
+              <button
+                class="bg-primary text-white text-uppercase rounded w-100"
+              >
+                Search
+              </button>
+            </div>
+          </form>
+          <button class="bg-gray mr-auto">How it works</button>
+        </section>
+      </main>
     </div>
     <script src="./js/jquery.slim.min.js"></script>
     <script src="./js/popper.min.js"></script>

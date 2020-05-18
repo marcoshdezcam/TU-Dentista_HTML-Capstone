@@ -1,5 +1,5 @@
-#navbar--main {
-  @include media-breakpoint-up(md) {
-    //height: 10em;
+@include media-breakpoint-down(sm) {
+  body {
+    height: 100vh;
   }
 }

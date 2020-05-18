@@ -6,11 +6,13 @@
 // CUSTOM LAYOUT
 
 // CUSTOM STYLE
-// #navbar--main {
-//   @include media-breakpoint-up(md) {
-//     height: 50px;
-//   }
-// }
+main {
+  #hero {
+    background: url('../img/hero-background.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+  }
+}
 
 // IMPORT BOOTSTRAP
 @import '../node_modules/bootstrap/scss/bootstrap';
