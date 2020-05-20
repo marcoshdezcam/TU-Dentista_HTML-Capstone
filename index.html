@@ -7,6 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="Marcos Hernández Campos" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="fontawesome/all.css" />
   </head>
   <body>
     <div class="container-fluid p-0" id="wrapper-all">
@@ -29,18 +30,18 @@
               class="nav-link text-white text-uppercase active"
               href="index.html"
             >
-              Home
+              <i class="fas fa-home"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white text-uppercase" href="results.html"
-              >Dentists</a
-            >
+            <a class="nav-link text-white text-uppercase" href="results.html">
+              <i class="fas fa-teeth-open"></i>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white text-uppercase" href="register.html"
-              >Sign Up</a
-            >
+            <a class="nav-link text-white text-uppercase" href="register.html">
+              <i class="fas fa-user-plus"></i>
+            </a>
           </li>
           <li>
             <button
@@ -52,15 +53,19 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link text-uppercase" href="#">Blog</a>
+                  <a class="nav-link text-uppercase text-white" href="#"
+                    >Blog</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-uppercase" href="#">About</a>
+                  <a class="nav-link text-uppercase text-white" href="#"
+                    >About</a
+                  >
                 </li>
               </ul>
             </div>
@@ -96,74 +101,119 @@
           <h3 class="text-primary text-uppercase text-center">
             TU Dentista works in four simple steps:
           </h3>
-          <div>
-            <img src="" alt="" />
-            <h4>Search</h4>
-            <p>
-              It's simple. On the TU Dentista homepage, enter the name of a
-              doctor, specialty, or a keyword of something you are looking for
-              and click on search. Alternatively, click on the search link on
-              the top menu to view the list of all schools.
-            </p>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <h4>Locate</h4>
-            <p>
-              Get to see where the dentist is located by clicking on the
-              dentist's profile. And you can get directions from anywhere in the
-              country.
-            </p>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <h4>Make an appointment</h4>
-            <p>
-              Call your favorite dentist and make an appointment with them.
-              Click on the call button.
-            </p>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <h4>Rate</h4>
-            <p>
-              Rate the experience you had with them and help others to find the
-              best dentist near them too!
-            </p>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="card">
+                <i class="fab fa-searchengin fa-7x card-img mx-auto"></i>
+                <h4 class="card-title">Search</h4>
+                <p class="card-body">
+                  It's simple. On the TU Dentista homepage, enter the name of a
+                  doctor, specialty, or a keyword of something you are looking
+                  for and click on search. Alternatively, click on the search
+                  link on the top menu to view the list of all schools.
+                </p>
+              </div>
+              <div class="card">
+                <i class="fas fa-search-location fa-7x card-img mx-auto"></i>
+                <h4 class="card-title">Locate</h4>
+                <p class="card-body">
+                  Get to see where the dentist is located by clicking on the
+                  dentist's profile. And you can get directions from anywhere in
+                  the country.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card">
+                <i class="far fa-calendar-plus fa-7x card-img mx-auto"></i>
+                <h4 class="card-title">Make an appointment</h4>
+                <p class="card-body">
+                  Call your favorite dentist and make an appointment with them.
+                  Click on the call button.
+                </p>
+              </div>
+              <div class="card">
+                <i class="fas fa-star-half-alt fa-7x card-img mx-auto"></i>
+                <h4 class="card-title">Rate</h4>
+                <p class="card-content">
+                  Rate the experience you had with them and help others to find
+                  the best dentist near them too!
+                </p>
+              </div>
+            </div>
           </div>
         </section>
         <section class="d-none d-md-block" id="highlights">
           <h6 class="d-none">Hightlights</h6>
-          <div class="" id="number-of-dentists">
-            <div class="bg-orange card">
-              <h4>Over 10,000 dentists registered with us</h4>
-              <p>Find a dentist by using our filtered search engine</p>
-              <button>Find a dentist</button>
+          <div class="bg-orange card text-white" id="number-of-dentists">
+            <div class="row p-2">
+              <div class="col-8 p-4">
+                <h4 class="card-title">
+                  Over 10,000 dentists registered with us
+                </h4>
+                <p class="card-body">
+                  Find a dentist by using our filtered search engine
+                  <button
+                    class="bg-button--white text-orange text-uppercase rounded"
+                  >
+                    Find a dentist
+                  </button>
+                </p>
+              </div>
+              <div class="col-4">
+                <img
+                  src="./img/map.jpg"
+                  alt=""
+                  class="rounded-circle card-img"
+                />
+              </div>
             </div>
           </div>
-          <div class="" id="no-need">
-            <div class="bg-indigo card">
-              <h4>No need to travel to find a school in the country</h4>
-              <p>Just press or click on the search button and You're all set</p>
-              <button>Find a school near you</button>
+          <div class="bg-indigo card text-white" id="no-need">
+            <div class="row p-2">
+              <div class="col-8 p-4">
+                <h4 class="card-title">
+                  No need to travel to find a school in the country
+                </h4>
+                <p class="card-body">
+                  Just press or click on the search button and You're all set
+                  <button
+                    class="bg-button--white text-indigo text-uppercase rounded"
+                  >
+                    Find a school near you
+                  </button>
+                </p>
+              </div>
+              <div class="col-4">
+                <img
+                  src="./img/travel.jpg"
+                  alt=""
+                  class="rounded-circle card-img"
+                />
+              </div>
             </div>
           </div>
-          <div class="" id="anytime-anywhere">
-            <div class="bg-blue card">
-              <h4>Anytime Anywhere Any way!</h4>
-              <p>
-                Very convenient platforms that cut across any device including
-                our mobile ready web app and our mobile app coming soon to your
-                app store.
-              </p>
+          <div class="bg-blue card text-white" id="anytime-anywhere">
+            <div class="row p-2">
+              <div class="col-8 p-4">
+                <h4 class="card-title">Anytime Anywhere Any way!</h4>
+                <p class="card-body">
+                  Very convenient platforms that cut across any device including
+                  our mobile ready web app and our mobile app coming soon to
+                  your app store.
+                </p>
+              </div>
+              <div class="col-4">
+                <img src="./img/iphone.png" alt="" class="card-img" />
+              </div>
             </div>
           </div>
         </section>
       </main>
-      <footer class="d-none d-md-block">
+      <footer class="d-none d-md-block bg-black text-white">
         <section id="footer--links">
           <h6 class="d-none">Internal links</h6>
-          <ul>
+          <ul class="row">
             <li>Home</li>
             <li>Search</li>
             <li>About us</li>
@@ -175,9 +225,9 @@
             <li>Google+</li>
           </ul>
         </section>
-        <section id="subscribe-contact-about">
+        <section class="row" id="subscribe-contact-about">
           <h6 class="d-none">Subscribe, Contact & About</h6>
-          <div>
+          <div class="col-4">
             <h4>Subscribe</h4>
             <form>
               <label></label>
@@ -185,12 +235,12 @@
               <button></button>
             </form>
           </div>
-          <div>
+          <div class="col-4">
             <h4>Contact</h4>
             <p>Have a question?</p>
             <a href="">questions@tudentista.com</a>
           </div>
-          <div>
+          <div class="col-4">
             <h4>About</h4>
             <p>
               Tu Dentista is an online platform that helps to find the best and
@@ -198,9 +248,9 @@
             </p>
           </div>
         </section>
-        <section>
+        <section class="bg-footer--gray d-flex">
           <h6 class="d-none">Social links and legend</h6>
-          <ul>
+          <ul class="row">
             <li>Facebook</li>
             <li>Twitter</li>
             <li>Google+</li>

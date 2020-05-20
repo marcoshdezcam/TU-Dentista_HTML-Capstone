@@ -10,8 +10,12 @@ main {
   #hero {
     background: url('../img/hero-background.jpg') no-repeat;
     background-size: cover;
-    background-position: bottom right;
+    background-position: 50% 50%;
   }
+}
+
+button {
+  height: 40px;
 }
 
 // IMPORT BOOTSTRAP

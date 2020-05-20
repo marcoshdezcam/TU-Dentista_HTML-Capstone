@@ -1,15 +1,16 @@
 @include media-breakpoint-down(sm) {
   #hero {
     height: 74vh;
+    background-position: right center;
 
     h1 {
-      font-size: 0.5em;
-      line-height: 0.7em;
+      font-size: 1.3em;
+      line-height: 1.5em;
     }
 
     h2 {
-      font-size: 0.5em;
-      line-height: 0.8em;
+      font-size: 1em;
+      line-height: 1.2em;
     }
   }
 }
@@ -20,12 +21,8 @@
   }
 }
 
-@include media-breakpoint-only(lg) {
+@include media-breakpoint-up(lg) {
   #hero {
     height: 60vh;
   }
-}
-
-@include media-breakpoint-up(xl) {
-
 }
