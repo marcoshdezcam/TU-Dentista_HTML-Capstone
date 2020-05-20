@@ -1,5 +1,15 @@
 @include media-breakpoint-down(sm) {
-  body {
-    height: 100vh;
+  #hero {
+    height: 74vh;
+
+    h1 {
+      font-size: 0.5em;
+      line-height: 0.7em;
+    }
+
+    h2 {
+      font-size: 0.5em;
+      line-height: 0.8em;
+    }
   }
 }
