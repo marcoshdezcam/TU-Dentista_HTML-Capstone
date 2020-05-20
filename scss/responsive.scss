@@ -13,3 +13,19 @@
     }
   }
 }
+
+@include media-breakpoint-only(md) {
+  #hero {
+    height: 50vh;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  #hero {
+    height: 60vh;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+
+}
