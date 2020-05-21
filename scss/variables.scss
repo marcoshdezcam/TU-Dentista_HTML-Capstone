@@ -14,8 +14,20 @@ $theme-colors: (
   "blue": #519bd7,
   "black": #000,
   "footer--gray":  #1f1f1f,
-  "button--white": #dad7d8,
+  "button--white": rgb(255, 255, 255),
   "wrapper--white": rgba(206, 201, 201, 0.802)
+);
+
+$spacer: 1rem;
+
+$spacers: (
+  "0": 0,
+  "1": ($spacer * 0.25),
+  "2": ($spacer * 0.5),
+  "3": $spacer,
+  "4": ($spacer * 1.5),
+  "5": ($spacer * 3),
+  "6": ($spacer * 5)
 );
 
 $yellow: #e5ac5e;
