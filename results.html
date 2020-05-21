@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="Marcos Hernández Campos" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
-    <link rel="stylesheet" type="text/css" href="fontawesome/all.min.css" />
+    <link rel="stylesheet" href="fontawesome/all.min.css" />
   </head>
   <body>
     <div class="container-fluid p-0" id="wrapper-all">
@@ -78,7 +78,90 @@
           </li>
         </ul>
       </nav>
-      <main class=""></main>
+      <main class="">
+        <form
+          class="bg-filter--gray px-2 px-md-6 py-4 py-md-4 py-lg-6 my-4 my-lg-5"
+        >
+          <h4>Search by keywords, location, specialty, rating or price:</h4>
+          <div class="form-row">
+            <div class="col">
+              <label
+                class="text-uppercase d-none d-md-inline"
+                for="input--Keyword"
+                >Enter a keyword</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Keywords"
+                id="input--Keyword"
+              />
+            </div>
+            <div class="col">
+              <label
+                class="text-uppercase d-none d-md-inline"
+                for="input--State"
+                >State</label
+              >
+              <select id="input--State" class="form-control">
+                <option selected>State</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col">
+              <label class="text-uppercase d-none d-md-inline" for="input--City"
+                >City</label
+              >
+              <select id="input--City" class="form-control">
+                <option selected>City</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col d-none d-md-inline">
+              <label
+                class="text-uppercase d-none d-md-inline"
+                for="input--Specialty"
+                >Specialty</label
+              >
+              <select id="input--Specialty" class="form-control">
+                <option selected>Specialty</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col d-none d-md-inline">
+              <label
+                class="text-uppercase d-none d-md-inline"
+                for="input--Rating"
+                >Rating</label
+              >
+              <select id="input--Rating" class="form-control">
+                <option selected>Rating</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col d-none d-md-inline">
+              <label
+                class="text-uppercase d-none d-md-inline"
+                for="input--Price"
+                >Price level</label
+              >
+              <select id="input--Price" class="form-control">
+                <option selected>Price level</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col d-none d-lg-flex">
+              <button class="w-50 bg-button--blue border-0">Search</button>
+              <button class="w-50 bg-button--yellow border-0">
+                Clear filter
+              </button>
+            </div>
+          </div>
+        </form>
+        <section class="my-4 text-center" id="results">
+          <h4>Search Results Found 6 Dentist(s)</h4>
+        </section>
+      </main>
       <footer class="d-none d-md-block bg-black text-white">
         <section class="py-4" id="footer--links">
           <h6 class="d-none">Internal links</h6>
@@ -90,7 +173,9 @@
             <li class="align-self-center">About us</li>
             <li class="align-self-center">Advertise</li>
             <li>
-              <i class="fas fa-map-marker-alt fa-3x rounded-circle border"></i>
+              <i
+                class="fas fa-map-marker-alt fa-3x rounded-circle border px-4 py-3"
+              ></i>
             </li>
             <li class="align-self-center">Facebook</li>
             <li class="align-self-center">Twitter</li>
