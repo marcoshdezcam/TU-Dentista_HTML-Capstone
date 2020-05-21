@@ -6,6 +6,15 @@
 // CUSTOM LAYOUT
 
 // CUSTOM STYLE
+
+.nav--icon {
+  color: #fff;
+}
+
+button {
+  height: 45px;
+}
+
 main {
   #hero {
     background: url('../img/hero-background.jpg') no-repeat;
@@ -14,8 +23,8 @@ main {
   }
 }
 
-button {
-  height: 40px;
+.card {
+  border: none;
 }
 
 // IMPORT BOOTSTRAP

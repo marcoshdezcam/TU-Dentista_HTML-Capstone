@@ -1,10 +1,16 @@
+.nav--icon {
+  color: #fff; }
+
+button {
+  height: 45px; }
+
 main #hero {
   background: url("../img/hero-background.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%; }
 
-button {
-  height: 40px; }
+.card {
+  border: none; }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)

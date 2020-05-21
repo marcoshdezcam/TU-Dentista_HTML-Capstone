@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="Marcos Hernández Campos" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
-    <link rel="stylesheet" type="text/css" href="fontawesome/all.css" />
+    <link rel="stylesheet" type="text/css" href="fontawesome/all.min.css" />
   </head>
   <body>
     <div class="container-fluid p-0" id="wrapper-all">
@@ -20,7 +20,7 @@
             src="img/logo_TU-Dentista.png"
             alt="Logo"
             class="p-0 m-0 img-fluid"
-            width="150"
+            width="200"
             height="50"
           />
         </a>
@@ -30,17 +30,17 @@
               class="nav-link text-white text-uppercase active"
               href="index.html"
             >
-              <i class="fas fa-home"></i>
+              <i class="fas fa-home fa-2x nav--icon"></i>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white text-uppercase" href="results.html">
-              <i class="fas fa-teeth-open"></i>
+              <i class="fas fa-teeth-open fa-2x nav--icon"></i>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white text-uppercase" href="register.html">
-              <i class="fas fa-user-plus"></i>
+              <i class="fas fa-user-plus fa-2x nav--icon"></i>
             </a>
           </li>
           <li>
@@ -53,7 +53,7 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <i class="fas fa-bars"></i>
+              <i class="fas fa-bars fa-2x nav--icon"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
@@ -74,14 +74,17 @@
       </nav>
       <main class="">
         <section
-          class="p-4 d-flex flex-column justify-content-center"
+          class="p-4 d-flex flex-column justify-content-around"
           id="hero"
         >
-          <h1 class="text-white">Find the best dentist near you</h1>
-          <h2 class="text-white">Rate them based on your experience</h2>
+          <div>
+            <h1 class="text-white">Find the best dentist near you</h1>
+            <h2 class="text-white">Rate them based on your experience</h2>
+          </div>
+
           <form class="bg-wrapper--white text-uppercase m-4 p-4">
             <div class="form-group">
-              <label for="search-keyboard">Search by keboard:</label>
+              <label for="search-keyboard">Search by keyboard:</label>
               <input
                 type="text"
                 class="form-control rounded"
@@ -95,16 +98,18 @@
               </button>
             </div>
           </form>
-          <button class="bg-button--white rounded mr-auto">How it works</button>
+          <button class="bg-button--white rounded mx-auto px-4">
+            How it works
+          </button>
         </section>
         <section class="d-none d-md-block bg-white py-4" id="how-it-works">
-          <h3 class="text-primary text-uppercase text-center">
+          <h3 class="text-primary text-uppercase text-center font-weight-bold">
             TU Dentista works in four simple steps:
           </h3>
           <div class="row">
             <div class="col-12 col-lg-6">
-              <div class="card">
-                <i class="fab fa-searchengin fa-7x card-img mx-auto"></i>
+              <div class="card text-center p-4 m-4 border-none border-0">
+                <i class="fab fa-searchengin fa-7x card-img text-"></i>
                 <h4 class="card-title">Search</h4>
                 <p class="card-body">
                   It's simple. On the TU Dentista homepage, enter the name of a
@@ -113,7 +118,7 @@
                   link on the top menu to view the list of all schools.
                 </p>
               </div>
-              <div class="card">
+              <div class="card text-center p-4 m-4 border-0">
                 <i class="fas fa-search-location fa-7x card-img mx-auto"></i>
                 <h4 class="card-title">Locate</h4>
                 <p class="card-body">
@@ -124,7 +129,7 @@
               </div>
             </div>
             <div class="col-12 col-lg-6">
-              <div class="card">
+              <div class="card text-center p-4 m-4 border-0">
                 <i class="far fa-calendar-plus fa-7x card-img mx-auto"></i>
                 <h4 class="card-title">Make an appointment</h4>
                 <p class="card-body">
@@ -132,10 +137,10 @@
                   Click on the call button.
                 </p>
               </div>
-              <div class="card">
+              <div class="card text-center p-4 m-4 border-0">
                 <i class="fas fa-star-half-alt fa-7x card-img mx-auto"></i>
                 <h4 class="card-title">Rate</h4>
-                <p class="card-content">
+                <p class="card-body">
                   Rate the experience you had with them and help others to find
                   the best dentist near them too!
                 </p>
@@ -143,6 +148,7 @@
             </div>
           </div>
         </section>
+
         <section class="d-none d-md-block" id="highlights">
           <h6 class="d-none">Hightlights</h6>
           <div class="bg-orange card text-white" id="number-of-dentists">
@@ -263,8 +269,8 @@
         </section>
       </footer>
     </div>
-    <script src="./js/jquery.slim.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
