@@ -18,6 +18,8 @@ $theme-colors: (
   "wrapper--white": rgba(206, 201, 201, 0.802)
 );
 
+$yellow: #e5ac5e;
+
 $spacer: 1rem;
 
 $spacers: (
@@ -30,6 +32,19 @@ $spacers: (
   "6": ($spacer * 5)
 );
 
-$yellow: #e5ac5e;
+$sizes: ();
+
+$sizes: (
+  "25": 25%,
+  "35": 35%,
+  "40": 40%,
+  "50": 50%,
+  "60": 60%,
+  "75": 75%,
+  "90": 90%,
+  "100": 100%
+)
 
 // CUSTOM VARIABLES
+
+// FONTS
