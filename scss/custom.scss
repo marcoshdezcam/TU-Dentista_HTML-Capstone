@@ -1,5 +1,6 @@
 // CUSTOM IMPORTS
 @import 'variables';
+@import 'fonts';
 
 // MIXINS
 
@@ -11,20 +12,38 @@
   color: #fff;
 }
 
-button {
-  height: 45px;
-}
+#hero {
+  background: url('../img/hero-background.jpg') no-repeat;
+  background-size: cover;
+  background-position: 70% 50%;
 
-main {
-  #hero {
-    background: url('../img/hero-background.jpg') no-repeat;
-    background-size: cover;
-    background-position: 70% 50%;
+  h1 {
+    font: bold 1.7rem/1.8rem $Josefin;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font: bold 1.2rem/1.4rem $Cabin;
+  }
+
+  button {
+    height: 45px;
+    font: 1.2rem/1.4rem $Oswald;
+  }
+
+  #search-keyboard {
+    font: 1rem/1.2rem $Cabin;
   }
 }
 
 .card {
   border: none;
+}
+
+#how-it-works {
+  .card {
+    height: 50%;
+  }
 }
 
 footer ul {

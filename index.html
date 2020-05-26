@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <meta name="author" content="Marcos Hernández Campos" />
-    <link rel="stylesheet" type="text/css" href="css/custom.css" />
     <link rel="stylesheet" type="text/css" href="fontawesome/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
   </head>
   <body>
     <div class="container-fluid p-0" id="wrapper-all">
       <nav
-        class="navbar flex-column flex-md-row navbar-light bg-primary h-auto"
+        class="navbar flex-column flex-md-row align-content-center justify-content-around justify-content-md-between navbar-light bg-primary fixed-top"
         id="navbar--main"
       >
         <a class="navbar-brand mx-auto mx-md-1" href="index.html">
           <img
             src="img/logo_TU-Dentista.png"
             alt="Logo"
-            class="p-0 m-0 img-fluid"
-            width="200"
-            height="50"
+            class="p-0 m-auto img-fluid"
+            id="nav--logo"
+            width="120"
           />
         </a>
         <ul class="nav justify-content-end">
@@ -31,27 +31,27 @@
               href="index.html"
             >
               <i class="fas fa-home fa-2x nav--icon">
-                <span class="d-none d-lg-inline nav--icon-text">Home</span>
+                <span class="d-none d-lg-inline button--text">Home</span>
               </i>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white text-uppercase" href="results.html">
               <i class="fas fa-teeth-open fa-2x nav--icon">
-                <span class="d-none d-lg-inline nav--icon-text">Dentists</span>
+                <span class="d-none d-lg-inline button--text">Dentists</span>
               </i>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white text-uppercase" href="register.html">
               <i class="fas fa-user-plus fa-2x nav--icon">
-                <span class="d-none d-lg-inline nav--icon-text">Register</span>
+                <span class="d-none d-lg-inline button--text">Register</span>
               </i>
             </a>
           </li>
           <li>
             <button
-              class="navbar-toggler"
+              class="navbar-toggler border-0"
               type="button"
               data-toggle="collapse"
               data-target="#navbarNavDropdown"
@@ -64,12 +64,16 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link text-uppercase text-white" href="#"
+                  <a
+                    class="nav-link text-uppercase text-white button--text"
+                    href="#"
                     >Blog</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-uppercase text-white" href="#"
+                  <a
+                    class="nav-link text-uppercase text-white button--text"
+                    href="#"
                     >About</a
                   >
                 </li>
@@ -80,23 +84,23 @@
       </nav>
       <main class="">
         <section
-          class="p-4 d-flex flex-column justify-content-around"
+          class="p-4 p-md-5 p-xl-6 d-flex flex-column justify-content-around"
           id="hero"
         >
           <div class="w-75">
             <h1 class="text-white">Find the best dentist near you</h1>
-            <h2 class="text-white">Rate them based on your experience</h2>
+            <h2 class="text-white my-3">Rate them based on your experience</h2>
           </div>
 
-          <form class="bg-wrapper--white text-uppercase m-4 p-4 mx-lg-6">
+          <form
+            class="bg-wrapper--white text-uppercase my-4 mx-auto p-4 w-80"
+            id="search--wrapper"
+          >
             <div class="form-group">
-              <label for="search-keyboard">Search by keyboard:</label>
-              <input
-                type="text"
-                class="form-control rounded"
-                id="search-keyboard"
-                placeholder=""
-              />
+              <label for="search-keyboard" id="search-keyboard"
+                >Search by keyboard:</label
+              >
+              <input type="text" class="form-control rounded" placeholder="" />
               <button
                 class="bg-primary text-white text-uppercase rounded w-100"
               >
@@ -104,7 +108,7 @@
               </button>
             </div>
           </form>
-          <button class="bg-button--white rounded mx-auto px-4">
+          <button class="bg-button--white rounded mx-auto px-5 py-2">
             How it works
           </button>
         </section>
@@ -112,7 +116,7 @@
           <h3 class="text-primary text-uppercase text-center font-weight-bold">
             TU Dentista works in four simple steps:
           </h3>
-          <div class="row">
+          <div class="row w-100">
             <div class="col-12 col-lg-6">
               <div class="card text-center p-4 m-4 border-none border-0">
                 <i class="fab fa-searchengin fa-7x card-img text-"></i>
@@ -225,7 +229,7 @@
                 </p>
               </div>
               <div class="col-4">
-                <img src="./img/iphone.png" alt="" class="card-img" />
+                <img src="./img/iphone-mockup.png" alt="" class="card-img" />
               </div>
             </div>
           </div>
