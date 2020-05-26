@@ -18,8 +18,31 @@
   src: url("../fonts/Teko/Teko.eot");
   src: url("../fonts/Teko/Teko.eot?#iefix") format("embedded-opentype"), url("../fonts/Teko/Teko.woff2") format("woff2"), url("../fonts/Teko/Teko.woff") format("woff"), url("../fonts/Teko/Teko.ttf") format("truetype"), url("../fonts/Teko/Teko.svg#Teko-Heading") format("svg"); }
 
-.nav--icon {
+#navbar--main .nav--icon {
   color: #fff; }
+
+#navbar--main .button--text {
+  font: bold 1.4rem/1.5rem "Oswald-Button", Fallback, sans-serif; }
+
+.navbar-collapse {
+  position: absolute;
+  top: 25vh;
+  right: 0;
+  width: 20%;
+  transition: all 0.1s ease-in;
+  display: block; }
+
+.navbar-collapse.collapsing {
+  position: absolute;
+  top: 25vh;
+  right: 0;
+  transition: all 0.1s ease-in;
+  transform: translateX(100%); }
+
+.navbar-collapse.show {
+  position: absolute;
+  top: 25vh;
+  right: 0; }
 
 #hero {
   background: url("../img/hero-background.jpg") no-repeat;
@@ -41,6 +64,15 @@
 
 #how-it-works .card {
   height: 50%; }
+
+#how-it-works h3 {
+  font: 2rem/2.2rem "Josefin-Heading", Fallback, sans-serif; }
+
+#how-it-works h4 {
+  font: bold 1.5rem/1.7rem "Cabin-Heading", Fallback, sans-serif; }
+
+#how-it-works p {
+  font: medium 1.1rem/1.2rem "Cabin-Heading", Fallback, sans-serif; }
 
 footer ul {
   list-style-type: none; }
@@ -10258,6 +10290,23 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
 @media (min-width: 768px) and (max-width: 991.98px) {
   #nav--logo {
     width: 80px; }
+  .navbar-collapse {
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    width: 15%;
+    transition: all 0.1s ease-in;
+    display: block; }
+  .navbar-collapse.collapsing {
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    transition: all 0.1s ease-in;
+    transform: translateX(100%); }
+  .navbar-collapse.show {
+    position: absolute;
+    top: 4rem;
+    right: 0; }
   #navbar--main {
     height: 4rem; }
   #hero {
@@ -10272,10 +10321,25 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
 @media (min-width: 992px) {
   #nav--logo {
     width: 80px; }
+  .navbar-collapse {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    width: 10%;
+    transition: all 0.1s ease-in;
+    display: block; }
+  .navbar-collapse.collapsing {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    transition: all 0.1s ease-in;
+    transform: translateX(100%); }
+  .navbar-collapse.show {
+    position: absolute;
+    top: 3rem;
+    right: 0; }
   #navbar--main {
     height: 3em; }
-    #navbar--main .button--text {
-      font: bold 1.4rem/1.5rem "Oswald-Button", Fallback, sans-serif; }
   #hero {
     margin-top: 3em;
     height: 60vh;
@@ -10289,4 +10353,5 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
 
 @media (min-width: 1200px) {
   #hero {
+    height: 70vh;
     background-position: 5% 10%; } }

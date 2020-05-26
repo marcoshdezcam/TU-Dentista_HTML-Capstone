@@ -12,76 +12,80 @@
   <body>
     <div class="container-fluid p-0" id="wrapper-all">
       <nav
-        class="navbar flex-column flex-md-row navbar-light bg-primary h-auto"
-        id="navbar--main"
-      >
-        <a class="navbar-brand mx-auto mx-md-1" href="index.html">
-          <img
-            src="img/logo_TU-Dentista.png"
-            alt="Logo"
-            class="p-0 m-0 img-fluid"
-            width="200"
-            height="50"
-          />
-        </a>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a
-              class="nav-link text-white text-uppercase active"
-              href="index.html"
-            >
-              <i class="fas fa-home fa-2x nav--icon">
-                <span class="d-none d-lg-inline button--text">Home</span>
-              </i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white text-uppercase" href="results.html">
-              <i class="fas fa-teeth-open fa-2x nav--icon">
-                <span class="d-none d-lg-inline button--text">Dentists</span>
-              </i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white text-uppercase" href="register.html">
-              <i class="fas fa-user-plus fa-2x nav--icon">
-                <span class="d-none d-lg-inline button--text">Register</span>
-              </i>
-            </a>
-          </li>
-          <li>
-            <button
-              class="navbar-toggler border-0"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fas fa-bars fa-2x nav--icon"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a
-                    class="nav-link text-uppercase text-white button--text"
-                    href="#"
-                    >Blog</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link text-uppercase text-white button--text"
-                    href="#"
-                    >About</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </nav>
+      class="navbar flex-column flex-md-row align-content-center justify-content-around justify-content-md-between navbar-light bg-primary fixed-top"
+      id="navbar--main"
+    >
+      <a class="navbar-brand mx-auto mx-md-1" href="index.html">
+        <img
+          src="img/logo_TU-Dentista.png"
+          alt="Logo"
+          class="p-0 m-auto img-fluid"
+          id="nav--logo"
+          width="120"
+        />
+      </a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a
+            class="nav-link text-white text-uppercase active"
+            href="index.html"
+          >
+            <i class="fas fa-home fa-2x nav--icon">
+              <span class="d-none d-lg-inline button--text">Home</span>
+            </i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white text-uppercase" href="results.html">
+            <i class="fas fa-teeth-open fa-2x nav--icon">
+              <span class="d-none d-lg-inline button--text">Dentists</span>
+            </i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white text-uppercase" href="register.html">
+            <i class="fas fa-user-plus fa-2x nav--icon">
+              <span class="d-none d-lg-inline button--text">Register</span>
+            </i>
+          </a>
+        </li>
+        <li>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars fa-2x nav--icon"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse bg-primary p-2 text-center align-content-between"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a
+                  class="nav-link text-uppercase text-white button--text"
+                  href="#"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase text-white button--text"
+                  href="#"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
       <main class=""></main>
       <footer class="d-none d-md-block bg-black text-white">
         <section class="py-4" id="footer--links">

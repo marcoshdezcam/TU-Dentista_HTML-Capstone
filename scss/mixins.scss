@@ -1,0 +1,24 @@
+@mixin slideNavBar($spaceToTOP, $width) {
+  .navbar-collapse {
+    position: absolute;
+    top: $spaceToTOP;
+    right: 0;
+    width: $width;
+    transition: all 0.1s ease-in;
+    display: block;
+  }
+
+  .navbar-collapse.collapsing {
+    position: absolute;
+    top: $spaceToTOP;
+    right: 0;
+    transition: all 0.1s ease-in;
+    transform: translateX(100%);
+  }
+
+  .navbar-collapse.show {
+    position: absolute;
+    top: $spaceToTOP;
+    right: 0;
+  }
+}

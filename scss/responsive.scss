@@ -14,6 +14,8 @@
     width: 80px;
   }
 
+  @include slideNavBar(4rem, 15%);
+
   #navbar--main {
     height: 4rem;
   }
@@ -38,12 +40,10 @@
     width: 80px;
   }
 
+  @include slideNavBar(3rem, 10%);
+
   #navbar--main {
     height: 3em;
-
-    .button--text {
-      font: bold 1.4rem/1.5rem $Oswald;
-    }
   }
 
   #hero {
@@ -67,6 +67,7 @@
 
 @include media-breakpoint-up(xl) {
   #hero {
+    height: 70vh;
     background-position: 5% 10%;
   }
 }
