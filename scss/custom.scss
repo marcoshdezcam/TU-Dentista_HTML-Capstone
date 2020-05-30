@@ -62,12 +62,30 @@
   }
 
   p {
-    font: medium 1.1rem/1.2rem $Cabin;
+    font: 200 1.1rem/1.2rem $Cabin;
+  }
+}
+
+#highlights {
+  h4 {
+    font: 400 1.8rem/2.2rem $Cabin;
+  }
+
+  p {
+    font: 300 1.5rem/1.7rem $Catamaran;
   }
 }
 
 footer ul {
   list-style-type: none;
+}
+
+#location-links {
+  font: 300 1rem/1.2rem $Oswald;
+
+  #location-icon {
+    border: 2px solid #dee2e6 !important;
+  }
 }
 
 // IMPORT BOOTSTRAP

@@ -170,7 +170,7 @@
             id="number-of-dentists"
           >
             <div class="row">
-              <div class="col-8 p-4 d-flex flex-column align-content-center">
+              <div class="col-8 p-4 d-flex flex-column">
                 <h4 class="card-title">
                   Over 10,000 dentists registered with us
                 </h4>
@@ -178,7 +178,7 @@
                   Find a dentist by using our filtered search engine
                 </p>
                 <button
-                  class="bg-button--white text-orange font-weight-bold text-uppercase rounded"
+                  class="bg-button--white text-orange font-weight-bold text-uppercase rounded py-1"
                 >
                   Find a dentist
                 </button>
@@ -187,17 +187,14 @@
                 <img
                   src="./img/map.jpg"
                   alt=""
-                  class="rounded-circle card-img"
+                  class="rounded-circle card-img my-auto"
                 />
               </div>
             </div>
           </div>
-          <div
-            class="bg-indigo card text-white p-md-4 py-lg-6 px-lg-4"
-            id="no-need"
-          >
-            <div class="row p-2">
-              <div class="col-8 p-4">
+          <div class="bg-indigo card text-white px-6 py-4" id="no-need">
+            <div class="row">
+              <div class="col-8 p-4 d-flex flex-column">
                 <h4 class="card-title">
                   No need to travel to find a school in the country
                 </h4>
@@ -205,7 +202,7 @@
                   Just press or click on the search button and You're all set
                 </p>
                 <button
-                  class="bg-button--white text-indigo font-weight-bold text-uppercase rounded"
+                  class="bg-button--white text-indigo font-weight-bold text-uppercase py-1"
                 >
                   Find a school near you
                 </button>
@@ -219,31 +216,34 @@
               </div>
             </div>
           </div>
-          <div
-            class="bg-blue card text-white p-md-4 py-lg-6 px-lg-4"
-            id="anytime-anywhere"
-          >
+          <div class="bg-blue card text-white px-6 py-4" id="anytime-anywhere">
             <div class="row p-2">
-              <div class="col-8 p-4">
-                <h4 class="card-title">Anytime Anywhere Any way!</h4>
-                <p class="card-body p-0">
+              <div class="col-8 p-4 d-flex flex-column">
+                <h4 class="card-title mt-lg-6">Anytime Anywhere Any way!</h4>
+                <p class="card-body px-0 my-lg-4 align-self-center">
                   Very convenient platforms that cut across any device including
                   our mobile ready web app and our mobile app coming soon to
                   your app store.
                 </p>
               </div>
               <div class="col-4">
-                <img src="./img/iphone-mockup.png" alt="" class="card-img" />
+                <img
+                  src="./img/iphone-mockup.png"
+                  alt=""
+                  class="card-img img-fluid"
+                />
               </div>
             </div>
           </div>
         </section>
       </main>
+
       <footer class="d-none d-md-block bg-black text-white">
         <section class="py-4" id="footer--links">
           <h6 class="d-none">Internal links</h6>
           <ul
-            class="row w-90 d-flex justify-content-around p-2 border-top border-bottom mx-auto text-uppercase"
+            class="row w-90 d-flex justify-content-between p-2 border-top border-bottom mx-auto text-uppercase"
+            id="location-links"
           >
             <li class="align-self-center">Home</li>
             <li class="align-self-center">Search</li>
@@ -251,7 +251,8 @@
             <li class="align-self-center">Advertise</li>
             <li>
               <i
-                class="fas fa-map-marker-alt fa-3x rounded-circle border px-4 py-3"
+                class="fas fa-map-marker-alt fa-2x rounded-circle border px-4 py-3"
+                id="location-icon"
               ></i>
             </li>
             <li class="align-self-center">Facebook</li>

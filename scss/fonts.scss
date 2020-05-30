@@ -23,6 +23,18 @@
 }
 
 @font-face {
+  font-family: "Catamaran-Content";
+  src: url("../fonts/Catamaran/Catamaran.eot");
+  src:
+    url("../fonts/Catamaran/Catamaran.eot?#iefix")
+    format("embedded-opentype"),
+    url("../fonts/Catamaran/Catamaran.woff") format("woff"),
+    url("../fonts/Catamaran/Catamaran.woff2") format("woff2"),
+    url("../fonts/Catamaran/Catamaran.ttf") format("truetype"),
+    url("../fonts/Catamaran/Catamaran.svg#Catamaran-Content") format("svg");
+}
+
+@font-face {
   font-family: "Oswald-Button";
   src: url("../fonts/Oswald/Oswald.eot");
   src:

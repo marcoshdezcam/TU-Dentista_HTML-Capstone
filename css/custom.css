@@ -9,6 +9,11 @@
   src: url("../fonts/Josefin/Josefin.eot?#iefix") format("embedded-opentype"), url("../fonts/Josefin/Josefin.woff2") format("woff2"), url("../fonts/Josefin/Josefin.woff") format("woff"), url("../fonts/Josefin/Josefin.ttf") format("truetype"), url("../fonts/Josefin/Josefin.svg#Josefin-Heading") format("svg"); }
 
 @font-face {
+  font-family: "Catamaran-Content";
+  src: url("../fonts/Catamaran/Catamaran.eot");
+  src: url("../fonts/Catamaran/Catamaran.eot?#iefix") format("embedded-opentype"), url("../fonts/Catamaran/Catamaran.woff") format("woff"), url("../fonts/Catamaran/Catamaran.woff2") format("woff2"), url("../fonts/Catamaran/Catamaran.ttf") format("truetype"), url("../fonts/Catamaran/Catamaran.svg#Catamaran-Content") format("svg"); }
+
+@font-face {
   font-family: "Oswald-Button";
   src: url("../fonts/Oswald/Oswald.eot");
   src: url("../fonts/Oswald/Oswald.eot?#iefix") format("embedded-opentype"), url("../fonts/Oswald/Oswald.woff2") format("woff2"), url("../fonts/Oswald/Oswald.woff") format("woff"), url("../fonts/Oswald/Oswald.ttf") format("truetype"), url("../fonts/Oswald/Oswald.svg#Oswald-Heading") format("svg"); }
@@ -72,10 +77,21 @@
   font: bold 1.5rem/1.7rem "Cabin-Heading", Fallback, sans-serif; }
 
 #how-it-works p {
-  font: medium 1.1rem/1.2rem "Cabin-Heading", Fallback, sans-serif; }
+  font: 200 1.1rem/1.2rem "Cabin-Heading", Fallback, sans-serif; }
+
+#highlights h4 {
+  font: 400 1.8rem/2.2rem "Cabin-Heading", Fallback, sans-serif; }
+
+#highlights p {
+  font: 300 1.5rem/1.7rem "Catamaran-Content", Fallback, sans-serif; }
 
 footer ul {
   list-style-type: none; }
+
+#location-links {
+  font: 300 1rem/1.2rem "Oswald-Button", Fallback, sans-serif; }
+  #location-links #location-icon {
+    border: 2px solid #dee2e6 !important; }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
