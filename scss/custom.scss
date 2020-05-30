@@ -76,6 +76,12 @@
   }
 }
 
+footer {
+  a:hover {
+    text-decoration: none;
+  }
+}
+
 footer ul {
   list-style-type: none;
 }
@@ -84,8 +90,31 @@ footer ul {
   font: 300 1rem/1.2rem $Oswald;
 
   #location-icon {
-    border: 2px solid #dee2e6 !important;
+    border: 2px solid #dee2e6;
   }
+}
+
+#subscribe-contact-about {
+  h4 {
+    font: 400 1.8rem/2.2rem $Cabin;
+  }
+
+  p {
+    font: 300 1.1rem/1.3rem $Catamaran;
+  }
+
+  #contact-email {
+    font: 300 1rem/1.2rem $Oswald;
+  }
+
+  #subscribe {
+    border: 2px solid #dee2e6;
+    font: 300 1.1rem/2.5rem $Oswald;
+  }
+}
+
+#footer-brand {
+  font: 400 1.2rem/1.5rem $Cabin;
 }
 
 // IMPORT BOOTSTRAP

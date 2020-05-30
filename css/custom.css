@@ -85,13 +85,32 @@
 #highlights p {
   font: 300 1.5rem/1.7rem "Catamaran-Content", Fallback, sans-serif; }
 
+footer a:hover {
+  text-decoration: none; }
+
 footer ul {
   list-style-type: none; }
 
 #location-links {
   font: 300 1rem/1.2rem "Oswald-Button", Fallback, sans-serif; }
   #location-links #location-icon {
-    border: 2px solid #dee2e6 !important; }
+    border: 2px solid #dee2e6; }
+
+#subscribe-contact-about h4 {
+  font: 400 1.8rem/2.2rem "Cabin-Heading", Fallback, sans-serif; }
+
+#subscribe-contact-about p {
+  font: 300 1.1rem/1.3rem "Catamaran-Content", Fallback, sans-serif; }
+
+#subscribe-contact-about #contact-email {
+  font: 300 1rem/1.2rem "Oswald-Button", Fallback, sans-serif; }
+
+#subscribe-contact-about #subscribe {
+  border: 2px solid #dee2e6;
+  font: 300 1.1rem/2.5rem "Oswald-Button", Fallback, sans-serif; }
+
+#footer-brand {
+  font: 400 1.2rem/1.5rem "Cabin-Heading", Fallback, sans-serif; }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
