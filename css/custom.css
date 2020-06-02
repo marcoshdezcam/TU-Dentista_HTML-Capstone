@@ -49,41 +49,51 @@
   top: 25vh;
   right: 0; }
 
-#hero {
+#main--page #hero {
   background: url("../img/hero-background.jpg") no-repeat;
   background-size: cover;
-  background-position: 70% 50%; }
-  #hero h1 {
+  background-position: 70% 50%;
+  height: 75vh; }
+  #main--page #hero h1 {
     font: bold 1.7rem/1.8rem "Josefin-Heading", Fallback, sans-serif;
     text-transform: uppercase; }
-  #hero h2 {
+  #main--page #hero h2 {
     font: bold 1.2rem/1.4rem "Cabin-Heading", Fallback, sans-serif; }
-  #hero button {
+  #main--page #hero button {
     height: 45px;
     font: 1.2rem/1.4rem "Oswald-Button", Fallback, sans-serif; }
-  #hero #search-keyboard {
+  #main--page #hero #search-keyboard {
     font: 1rem/1.2rem "Cabin-Heading", Fallback, sans-serif; }
 
-.card {
+#main--page .card {
   border: none; }
 
-#how-it-works .card {
+#main--page #how-it-works .card {
   height: 50%; }
 
-#how-it-works h3 {
+#main--page #how-it-works h3 {
   font: 2rem/2.2rem "Josefin-Heading", Fallback, sans-serif; }
 
-#how-it-works h4 {
+#main--page #how-it-works h4 {
   font: bold 1.5rem/1.7rem "Cabin-Heading", Fallback, sans-serif; }
 
-#how-it-works p {
+#main--page #how-it-works p {
   font: 200 1.1rem/1.2rem "Cabin-Heading", Fallback, sans-serif; }
 
-#highlights h4 {
+#main--page #highlights h4 {
   font: 400 1.8rem/2.2rem "Cabin-Heading", Fallback, sans-serif; }
 
-#highlights p {
+#main--page #highlights p {
   font: 300 1.5rem/1.7rem "Catamaran-Content", Fallback, sans-serif; }
+
+#results--page h4 {
+  font: 300 1.2rem/1.4rem "Cabin-Heading", Fallback, sans-serif; }
+
+#results--page label,
+#results--page input,
+#results--page select,
+#results--page button {
+  font: 300 0.8rem/1rem "Oswald-Button", Fallback, sans-serif; }
 
 footer a:hover {
   text-decoration: none; }
@@ -10318,9 +10328,8 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
 @media (max-width: 767.98px) {
   #navbar--main {
     height: 25vh; }
-  #hero {
-    margin-top: 25vh;
-    height: 75vh; } }
+  main {
+    margin-top: 25vh; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   #nav--logo {
@@ -10344,8 +10353,9 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
     right: 0; }
   #navbar--main {
     height: 4rem; }
+  main {
+    margin-top: 4rem; }
   #hero {
-    margin-top: 4rem;
     height: 30rem;
     background-position: 0% 50%; }
     #hero h1 {

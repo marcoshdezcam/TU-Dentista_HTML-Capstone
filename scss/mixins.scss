@@ -22,3 +22,87 @@
     right: 0;
   }
 }
+
+@mixin index() {
+  #main--page {
+    #hero {
+      background: url('../img/hero-background.jpg') no-repeat;
+      background-size: cover;
+      background-position: 70% 50%;
+      height: 75vh;
+
+      h1 {
+        font: bold 1.7rem/1.8rem $Josefin;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        font: bold 1.2rem/1.4rem $Cabin;
+      }
+
+      button {
+        height: 45px;
+        font: 1.2rem/1.4rem $Oswald;
+      }
+
+      #search-keyboard {
+        font: 1rem/1.2rem $Cabin;
+      }
+    }
+
+    .card {
+      border: none;
+    }
+
+    #how-it-works {
+      .card {
+        height: 50%;
+      }
+
+      h3 {
+        font: 2rem/2.2rem $Josefin;
+      }
+
+      h4 {
+        font: bold 1.5rem/1.7rem $Cabin;
+      }
+
+      p {
+        font: 200 1.1rem/1.2rem $Cabin;
+      }
+    }
+
+    #highlights {
+      h4 {
+        font: 400 1.8rem/2.2rem $Cabin;
+      }
+
+      p {
+        font: 300 1.5rem/1.7rem $Catamaran;
+      }
+    }
+  }
+}
+
+@mixin results() {
+  #results--page {
+    h4 {
+      font: 300 1.2rem/1.4rem $Cabin;
+    }
+
+    label,
+    input,
+    select,
+    button {
+      font: 300 0.8rem/1rem $Oswald;
+    }
+  }
+}
+
+// @mixin profile() {
+
+// }
+
+// @mixin results() {
+
+// }
