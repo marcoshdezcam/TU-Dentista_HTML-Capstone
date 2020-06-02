@@ -33,7 +33,7 @@
   position: absolute;
   top: 25vh;
   right: 0;
-  width: 20%;
+  width: 30%;
   transition: all 0.1s ease-in;
   display: block; }
 
@@ -59,7 +59,8 @@
     text-transform: uppercase; }
   #main--page #hero h2 {
     font: bold 1.2rem/1.4rem "Cabin-Heading", Fallback, sans-serif; }
-  #main--page #hero button {
+  #main--page #hero button,
+  #main--page #hero input {
     height: 45px;
     font: 1.2rem/1.4rem "Oswald-Button", Fallback, sans-serif; }
   #main--page #hero #search-keyboard {
@@ -93,7 +94,12 @@
 #results--page input,
 #results--page select,
 #results--page button {
-  font: 300 0.8rem/1rem "Oswald-Button", Fallback, sans-serif; }
+  font: 300 0.9rem/1.1rem "Oswald-Button", Fallback, sans-serif; }
+
+#results--page button {
+  width: 100px;
+  height: 35px;
+  margin-top: auto; }
 
 footer a:hover {
   text-decoration: none; }
@@ -10338,7 +10344,7 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
     position: absolute;
     top: 4rem;
     right: 0;
-    width: 15%;
+    width: 12%;
     transition: all 0.1s ease-in;
     display: block; }
   .navbar-collapse.collapsing {

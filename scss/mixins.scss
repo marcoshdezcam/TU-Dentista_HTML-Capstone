@@ -40,7 +40,8 @@
         font: bold 1.2rem/1.4rem $Cabin;
       }
 
-      button {
+      button,
+      input {
         height: 45px;
         font: 1.2rem/1.4rem $Oswald;
       }
@@ -94,7 +95,13 @@
     input,
     select,
     button {
-      font: 300 0.8rem/1rem $Oswald;
+      font: 300 0.9rem/1.1rem $Oswald;
+    }
+
+    button {
+      width: 100px;
+      height: 35px;
+      margin-top: auto;
     }
   }
 }

@@ -86,6 +86,7 @@
           </li>
         </ul>
       </nav>
+
       <main class="" id="results--page">
         <form
           class="bg-filter--gray px-2 px-md-6 py-4 py-md-4 py-lg-6 my-4 my-lg-5 text-center"
@@ -94,7 +95,7 @@
           <div class="form-row">
             <div class="col">
               <label
-                class="text-uppercase d-none d-md-inline"
+                class="text-uppercase d-none d-md-inline text-nowrap"
                 for="input--Keyword"
                 >Enter a keyword</label
               >
@@ -158,12 +159,60 @@
                 <option>...</option>
               </select>
             </div>
-            <div class="col d-none d-lg-flex">
-              <button class="w-50 bg-button--blue border-0">Search</button>
-              <button class="w-50 bg-button--yellow border-0">
-                Clear filter
-              </button>
+          </div>
+
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="form-row my-2 d-flex">
+              <div class="col">
+                <label class="text-uppercase" for="input--Specialty"
+                  >Specialty</label
+                >
+                <select id="input--Specialty" class="form-control">
+                  <option selected>Specialty</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col">
+                <label class="text-uppercase" for="input--Rating">Rating</label>
+                <select id="input--Rating" class="form-control">
+                  <option selected>Rating</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col">
+                <label class="text-uppercase" for="input--Price"
+                  >Price level</label
+                >
+                <select id="input--Price" class="form-control">
+                  <option selected>Price level</option>
+                  <option>...</option>
+                </select>
+              </div>
             </div>
+          </div>
+          <button
+            class="navbar-toggler d-md-none"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fas fa-angle-double-down fa-2x m-2"></span>
+          </button>
+
+          <div class="col d-flex justify-content-center my-2">
+            <button
+              class="bg-button--blue border-0 rounded p-0 m-2 text-uppercase"
+            >
+              Search
+            </button>
+            <button
+              class="bg-button--yellow border-0 rounded p-0 m-2 text-uppercase"
+            >
+              Clear filter
+            </button>
           </div>
         </form>
 
