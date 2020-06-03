@@ -15,10 +15,6 @@
 
   @include slideNavBar(4rem, 12%);
 
-  #navbar--main {
-    height: 4rem;
-  }
-
   main {
     margin-top: 4rem;
   }
@@ -44,12 +40,11 @@
 
   @include slideNavBar(3rem, 10%);
 
-  #navbar--main {
-    height: 3em;
+  main {
+    margin-top: 3rem;
   }
 
   #hero {
-    margin-top: 3em;
     height: 60vh;
     background-position: 5% 30%;
 
@@ -69,7 +64,7 @@
 
 @include media-breakpoint-up(xl) {
   #hero {
-    height: 70vh;
+    height: 35vh;
     background-position: 5% 10%;
   }
 }
