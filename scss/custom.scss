@@ -21,6 +21,8 @@
 @include slideNavBar(25vh, 30%);
 @include index();
 @include results();
+@include register();
+@include profile();
 
 footer {
   a:hover {

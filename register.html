@@ -87,71 +87,87 @@
         </ul>
       </nav>
 
-      <main id="register--page">
-        <form action="" class="p-4">
+      <main id="register--page" class="px-xl-4">
+        <form action="action_page.php" method="POST" class="p-4 p-md-6 m-lg-6">
+          <h1 class="text-center text-uppercase">Register a new Dentist</h1>
           <div class="form-group">
-            <label for="formGroupExampleInput">First name</label>
+            <label for="input--FirstName">First name:</label>
             <input
               type="text"
-              class="form-control"
-              id="formGroupExampleInput"
-              placeholder="Example input placeholder"
+              class="form-control bg-wrapper--white"
+              id="input--FirstName"
+              placeholder="Enter your first name"
             />
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput2">Last name</label>
+            <label for="input--LastName">Last name:</label>
             <input
               type="text"
-              class="form-control"
-              id="formGroupExampleInput2"
-              placeholder="Another input placeholder"
+              class="form-control bg-wrapper--white"
+              id="input--LastName"
+              placeholder="Enter your last name"
             />
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput2">Email</label>
+            <label for="input--Specialty">Specialty:</label>
+            <select
+              class="form-control bg-wrapper--white"
+              id="input--Specialty"
+            >
+              <option selected="selected">Select your specialty</option>
+              <option>Endodontics</option>
+              <option>Orthodontics</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="input--Email">Email:</label>
             <input
-              type="text"
-              class="form-control"
-              id="formGroupExampleInput2"
-              placeholder="Another input placeholder"
+              type="email"
+              class="form-control bg-wrapper--white"
+              id="input--Email"
+              placeholder="Enter a valid email adress"
             />
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput2">Username</label>
+            <label for="input--Username">Username:</label>
             <input
               type="text"
-              class="form-control"
-              id="formGroupExampleInput2"
-              placeholder="Another input placeholder"
+              class="form-control bg-wrapper--white"
+              id="input--Username"
+              placeholder="Enter your username"
             />
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput2"></label>
+            <label for="input--State">State:</label>
+            <select class="form-control bg-wrapper--white" id="input--State">
+              <option selected="selected">Select your state</option>
+              <option>Puebla</option>
+              <option>CDMX</option>
+              <option>Veracruz</option>
+              <option>Oaxaca</option>
+              <option>Chiapas</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="input--Password">Password:</label>
             <input
-              type="text"
-              class="form-control"
-              id="formGroupExampleInput2"
-              placeholder="Another input placeholder"
+              type="password"
+              class="form-control bg-wrapper--white"
+              id="input--Password"
+              placeholder="At least 8 characters"
             />
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput2">Password</label>
+            <label for="input--PasswordConfirm">Confirm password:</label>
             <input
-              type="text"
-              class="form-control"
-              id="formGroupExampleInput2"
-              placeholder="Another input placeholder"
+              type="password"
+              class="form-control bg-wrapper--white"
+              id="input--PasswordConfirm"
+              placeholder="Repeat the same password"
             />
           </div>
-          <div class="form-group">
-            <label for="formGroupExampleInput2">Confirm password</label>
-            <input
-              type="text"
-              class="form-control"
-              id="formGroupExampleInput2"
-              placeholder="Another input placeholder"
-            />
-          </div>
+          <button type="submit" class="btn btn-primary my-2">Submit</button>
+          <button type="reset" class="btn btn-blue my-2">Reset</button>
         </form>
       </main>
       <footer class="d-none d-md-block bg-black text-white">

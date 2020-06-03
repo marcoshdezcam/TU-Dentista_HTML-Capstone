@@ -81,6 +81,11 @@
       p {
         font: 300 1.5rem/1.7rem $Catamaran;
       }
+
+      .card-img {
+        max-height: 400px;
+        max-width: 200px;
+      }
     }
   }
 }
@@ -125,16 +130,22 @@
 
 @mixin register() {
   #register--page {
+    h1 {
+      font: bold 1.5rem/1.7rem $Cabin !important;
+    }
+
     label {
-      font: 400 1.5rem/1.7rem $Catamaran;
+      font: 500 1.3rem/1.5rem $Josefin;
     }
 
     input {
-
+      font: 300 1.1rem/1.3rem $Cabin;
+      border-bottom: 3px solid rgb(122, 122, 122);
+      border-style: dotted;
     }
   }
 }
 
-// @mixin profile() {
+@mixin profile() {
 
-// }
+}
