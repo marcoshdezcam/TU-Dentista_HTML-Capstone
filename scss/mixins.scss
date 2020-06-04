@@ -149,5 +149,41 @@
 }
 
 @mixin profile() {
+  #profile--page {
+    table {
+      border-collapse: separate !important;
+      border-spacing: 5px 5px !important;
+    }
 
+    #img--cover {
+      object-fit: cover;
+      height: 200px;
+      -webkit-filter: blur(2px);
+      filter: blur(2px);
+    }
+
+    #profile--header {
+      position: relative;
+    }
+
+    #profile--name {
+      font-family: $Josefin;
+      bottom: 0;
+    }
+
+    #img--logo {
+      width: 120px;
+      height: 34px;
+    }
+
+    #img--profile {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid #519bd7;
+      right: 5%;
+      position: absolute;
+      top: -100px;
+    }
+  }
 }
