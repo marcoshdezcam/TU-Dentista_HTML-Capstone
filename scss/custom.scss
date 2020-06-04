@@ -1,13 +1,7 @@
-// CUSTOM IMPORTS
-@import 'variables';
-@import 'mixins';
-@import 'fonts';
+@import 'customVariables';
+@import 'customMixins';
+@import 'customFonts';
 
-// MIXINS
-
-// CUSTOM LAYOUT
-
-// CUSTOM STYLE
 #navbar--main {
   .nav--icon {
     color: #fff;
@@ -65,8 +59,5 @@ footer ul {
   font: 400 1.2rem/1.5rem $Cabin;
 }
 
-// IMPORT BOOTSTRAP
 @import '../node_modules/bootstrap/scss/bootstrap';
-
-// RESPONSIVE
 @import 'responsive';

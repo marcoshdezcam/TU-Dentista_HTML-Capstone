@@ -1,4 +1,3 @@
-// BOOTSTRAP VARIABLE OVERRIDES
 $container-max-widths: (
   sm: 575px,
   md: 768px,
@@ -55,7 +54,6 @@ $enable-gradients: true;
 $enable-transitions: true;
 $enable-responsive-font-sizes: true;
 
-// FONTS
 $Cabin: 'Cabin-Heading', Fallback, sans-serif;
 $Josefin: 'Josefin-Heading', Fallback, sans-serif;
 $Catamaran: 'Catamaran-Content', Fallback, sans-serif;
