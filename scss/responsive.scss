@@ -27,16 +27,18 @@
     margin-top: 4rem;
   }
 
-  #hero {
-    height: 30rem;
-    background-position: 0% 50%;
+  #main--page {
+    #hero {
+      height: 30rem;
+      background-position: 0% 50%;
 
-    h1 {
-      font: bold 2.2rem/2.4rem $Josefin;
-    }
+      h1 {
+        font: bold 2.4rem/2.8rem $Cabin;
+      }
 
-    h2 {
-      font: 1.5rem/1.7rem $Josefin;
+      h2 {
+        font: 1.5rem/1.7rem $Josefin;
+      }
     }
   }
 
@@ -62,20 +64,22 @@
     margin-top: 3rem;
   }
 
-  #hero {
-    height: 60vh;
-    background-position: 5% 30%;
+  #main--page {
+    #hero {
+      height: 40rem;
+      background-position: 5% 30%;
 
-    h1 {
-      font: bold 2.5rem/2rem $Cabin;
-    }
+      h1 {
+        font: bold 2.5rem/2.6rem $Cabin;
+      }
 
-    h2 {
-      font: 2rem/1.5rem $Josefin;
-    }
+      h2 {
+        font: 2rem/2.1em $Josefin;
+      }
 
-    #search--wrapper {
-      width: 50% !important;
+      #search--wrapper {
+        width: 50% !important;
+      }
     }
   }
 
@@ -91,8 +95,10 @@
 }
 
 @include media-breakpoint-up(xl) {
-  #hero {
-    height: 35vh;
-    background-position: 5% 10%;
+  #main--page {
+    #hero {
+      height: 45rem;
+      background-position: 5% 10%;
+    }
   }
 }

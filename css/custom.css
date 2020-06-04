@@ -55,10 +55,10 @@
   background-position: 70% 50%;
   height: 75vh; }
   #main--page #hero h1 {
-    font: bold 1.7rem/1.8rem "Josefin-Heading", Fallback, sans-serif;
+    font: bold 1.7rem/1.8rem "Cabin-Heading", Fallback, sans-serif;
     text-transform: uppercase; }
   #main--page #hero h2 {
-    font: bold 1.2rem/1.4rem "Cabin-Heading", Fallback, sans-serif; }
+    font: bold 1.2rem/1.4rem "Josefin-Heading", Fallback, sans-serif; }
   #main--page #hero button,
   #main--page #hero input {
     height: 45px;
@@ -129,6 +129,12 @@
   border-bottom: 3px solid #7a7a7a;
   border-style: dotted; }
 
+#register--page button {
+  font-family: "Josefin-Heading", Fallback, sans-serif; }
+
+#profile--page a {
+  font-family: "Josefin-Heading", Fallback, sans-serif; }
+
 #profile--page table {
   border-collapse: separate !important;
   border-spacing: 5px 5px !important; }
@@ -143,7 +149,7 @@
   position: relative; }
 
 #profile--page #profile--name {
-  font-family: "Josefin-Heading", Fallback, sans-serif;
+  font-family: "Cabin-Heading", Fallback, sans-serif;
   font-weight: bolder;
   position: relative;
   top: 140px; }
@@ -164,6 +170,9 @@
 #profile--page #profile--map {
   width: 100%;
   height: 400px; }
+
+#profile--page .card-footer {
+  font-family: "Josefin-Heading", Fallback, sans-serif; }
 
 footer a:hover {
   text-decoration: none; }
@@ -10427,12 +10436,12 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
     right: 0; }
   main {
     margin-top: 4rem; }
-  #hero {
+  #main--page #hero {
     height: 30rem;
     background-position: 0% 50%; }
-    #hero h1 {
-      font: bold 2.2rem/2.4rem "Josefin-Heading", Fallback, sans-serif; }
-    #hero h2 {
+    #main--page #hero h1 {
+      font: bold 2.4rem/2.8rem "Cabin-Heading", Fallback, sans-serif; }
+    #main--page #hero h2 {
       font: 1.5rem/1.7rem "Josefin-Heading", Fallback, sans-serif; }
   #profile--page #img--cover {
     height: 350px; }
@@ -10461,14 +10470,14 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
     right: 0; }
   main {
     margin-top: 3rem; }
-  #hero {
-    height: 60vh;
+  #main--page #hero {
+    height: 40rem;
     background-position: 5% 30%; }
-    #hero h1 {
-      font: bold 2.5rem/2rem "Cabin-Heading", Fallback, sans-serif; }
-    #hero h2 {
-      font: 2rem/1.5rem "Josefin-Heading", Fallback, sans-serif; }
-    #hero #search--wrapper {
+    #main--page #hero h1 {
+      font: bold 2.5rem/2.6rem "Cabin-Heading", Fallback, sans-serif; }
+    #main--page #hero h2 {
+      font: 2rem/2.1em "Josefin-Heading", Fallback, sans-serif; }
+    #main--page #hero #search--wrapper {
       width: 50% !important; }
   #profile--page #img--cover {
     height: 400px; }
@@ -10476,6 +10485,6 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
     top: 330px; } }
 
 @media (min-width: 1200px) {
-  #hero {
-    height: 35vh;
+  #main--page #hero {
+    height: 45rem;
     background-position: 5% 10%; } }

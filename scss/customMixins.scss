@@ -32,12 +32,12 @@
       height: 75vh;
 
       h1 {
-        font: bold 1.7rem/1.8rem $Josefin;
+        font: bold 1.7rem/1.8rem $Cabin;
         text-transform: uppercase;
       }
 
       h2 {
-        font: bold 1.2rem/1.4rem $Cabin;
+        font: bold 1.2rem/1.4rem $Josefin;
       }
 
       button,
@@ -145,11 +145,19 @@
       border-bottom: 3px solid rgb(122, 122, 122);
       border-style: dotted;
     }
+
+    button {
+      font-family: $Josefin;
+    }
   }
 }
 
 @mixin profile() {
   #profile--page {
+    a {
+      font-family: $Josefin;
+    }
+
     table {
       border-collapse: separate !important;
       border-spacing: 5px 5px !important;
@@ -167,7 +175,7 @@
     }
 
     #profile--name {
-      font-family: $Josefin;
+      font-family: $Cabin;
       font-weight: bolder;
       position: relative;
       top: 140px;
@@ -191,6 +199,10 @@
     #profile--map {
       width: 100%;
       height: 400px;
+    }
+
+    .card-footer {
+      font-family: $Josefin;
     }
   }
 }
