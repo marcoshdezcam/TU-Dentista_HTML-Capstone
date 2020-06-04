@@ -144,7 +144,9 @@
 
 #profile--page #profile--name {
   font-family: "Josefin-Heading", Fallback, sans-serif;
-  bottom: 0; }
+  font-weight: 600;
+  position: relative;
+  top: 140px; }
 
 #profile--page #img--logo {
   width: 120px;
@@ -158,6 +160,10 @@
   right: 5%;
   position: absolute;
   top: -100px; }
+
+#profile--page #profile--map {
+  width: 100%;
+  height: 400px; }
 
 footer a:hover {
   text-decoration: none; }
@@ -10429,7 +10435,9 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
     #hero h2 {
       font: 1.5rem/1.7rem "Josefin-Heading", Fallback, sans-serif; }
   #profile--page #img--cover {
-    height: 350px; } }
+    height: 350px; }
+  #profile--page #profile--name {
+    top: 280px; } }
 
 @media (min-width: 992px) {
   #nav--logo {
@@ -10463,7 +10471,9 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
     #hero #search--wrapper {
       width: 50% !important; }
   #profile--page #img--cover {
-    height: 400px; } }
+    height: 400px; }
+  #profile--page #profile--name {
+    top: 330px; } }
 
 @media (min-width: 1200px) {
   #hero {
