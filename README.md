@@ -1,15 +1,27 @@
 # HTML & CSS Capstone Project: YOUR Dentist (Dentist directory)
 
-> This project is a directory of dentists in your city.
+> This project is a directory of dentists with filters to find the best option. 
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+The project has 4 pages: 
+- Main/Search
+- Results
+- Profile
+- Register
+
+Responsive design with 3 viewports: 
+- mobile: up to 768px
+- tablet: up to 1024px
+- desktop: from 1024px
+
+Design inspiration by [Mathew Njuguna and others on Behance](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## Built With
 
 - Bootstrap
 - SASS
+- CSS Hover animations with: [HOVER.CSS](https://github.com/IanLunn/Hover)
 
 ## Live Demo
 
@@ -36,6 +48,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Design inspiration by: [Mathew Njuguna and others on Behance](https://www.behance.net/gallery/25563385/PatashuleKE)
+- HOVER.CSS by [Ian Lunn](https://github.com/IanLunn/Hover)
+- Image resources by [Freepik](https://www.freepik.es/home)
 
 ## 📝 License
 
