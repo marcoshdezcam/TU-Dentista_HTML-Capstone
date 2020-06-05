@@ -2,7 +2,7 @@
 
 > This project is a directory of dentists with filters to find the best option. 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/screenshot1024.png)
 
 The project has 4 pages: 
 - Main/Search
@@ -25,7 +25,7 @@ Design inspiration by [Mathew Njuguna and others on Behance](https://www.behance
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://marcoshdezcam.github.io/gh-pages-lives/P8_Capstone_TU_Dentista)
 
 ## Authors
 
