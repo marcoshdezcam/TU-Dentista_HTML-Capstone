@@ -1,3 +1,4 @@
+@import '../node_modules/hover.css/scss/options';
 @import 'customVariables';
 @import 'customMixins';
 @import 'customFonts';
@@ -59,5 +60,6 @@ footer ul {
   font: 400 1.2rem/1.5rem $Cabin;
 }
 
+@import '../node_modules/hover.css/scss/hover';
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import 'responsive';
