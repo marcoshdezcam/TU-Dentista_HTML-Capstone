@@ -27,6 +27,10 @@ Design inspiration by [Mathew Njuguna and others on Behance](https://www.behance
 
 [Live Demo Link](https://marcoshdezcam.github.io/gh-pages-lives/P8_Capstone_TU_Dentista)
 
+## Video Presentation
+
+[YouTube](https://youtu.be/2HqR-_8m5vQ)
+
 ## Authors
 
 👤 **Marcos Hernández Campos**

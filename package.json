@@ -1,0 +1,32 @@
+{
+  "name": "project8_capstone",
+  "version": "1.0.0",
+  "description": "Directory of dentists",
+  "main": "stylelint.config.js",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "hover.css": "^2.3.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "stylelint": "^13.6.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoshdezcam/TU-Dentista_HTML-Capstone.git"
+  },
+  "author": "Marcos Hernández Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoshdezcam/TU-Dentista_HTML-Capstone/issues"
+  },
+  "homepage": "https://github.com/marcoshdezcam/TU-Dentista_HTML-Capstone#readme"
+}

@@ -10,10 +10,9 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
   </head>
   <body>
-    <div class="container-lg p-0" id="wrapper-all">
+    <div class="container-lg p-0">
       <nav
-        class="navbar flex-column flex-md-row align-content-center justify-content-around justify-content-md-between navbar-light bg-primary fixed-top"
-        id="navbar--main"
+        class="navbar flex-column flex-md-row align-content-center justify-content-around justify-content-md-between navbar-light bg-primary fixed-top navbar--main"
       >
         <a class="navbar-brand mx-auto mx-md-1" href="index.html">
           <img
@@ -31,14 +30,14 @@
               href="index.html"
             >
               <i class="fas fa-home fa-2x nav--icon hvr-grow">
-                <span class="d-none d-lg-inline button--text">Home</span>
+                <span class="d-none d-lg-inline tu--nav--button">Home</span>
               </i>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white text-uppercase" href="results.html">
               <i class="fas fa-teeth-open fa-2x nav--icon hvr-grow">
-                <span class="d-none d-lg-inline button--text">Dentists</span>
+                <span class="d-none d-lg-inline tu--nav--button">Dentists</span>
               </i>
             </a>
           </li>
@@ -46,7 +45,7 @@
           <li class="nav-item">
             <a class="nav-link text-white text-uppercase" href="register.html">
               <i class="fas fa-user-plus fa-2x nav--icon hvr-grow">
-                <span class="d-none d-lg-inline button--text">Register</span>
+                <span class="d-none d-lg-inline tu--nav--button">Register</span>
               </i>
             </a>
           </li>
@@ -69,14 +68,14 @@
               <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a
-                    class="nav-link text-uppercase text-white button--text hvr-grow"
+                    class="nav-link text-uppercase text-white tu--nav--button hvr-grow"
                     href="#"
                     >Blog</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link text-uppercase text-white button--text hvr-grow"
+                    class="nav-link text-uppercase text-white tu--nav--button hvr-grow"
                     href="#"
                     >About</a
                   >
@@ -87,52 +86,51 @@
         </ul>
       </nav>
 
-      <main id="main--page">
+      <main class="main--page">
         <section
-          class="p-4 p-md-5 p-xl-6 d-flex flex-column justify-content-around"
-          id="hero"
+          class="p-4 p-md-5 p-xl-6 d-flex flex-column justify-content-around hero"
         >
-          <div class="w-75">
+          <div class="w-100 text-center">
             <h1 class="text-white">Find the best dentist near you</h1>
             <h2 class="text-white my-3">Rate them based on your experience</h2>
           </div>
 
           <form
             action="/results.html"
-            class="bg-wrapper--white text-uppercase my-4 mx-auto p-4 w-80"
+            class="bg-wrapper--white text-uppercase my-2 mx-auto p-4 w-80"
             id="search--wrapper"
           >
             <div class="form-group">
-              <label for="search-keyboard">
+              <label for="search-keyboard" class="tu--label">
                 Search by keyboard:
               </label>
               <input
                 type="text"
-                class="form-control rounded hvr-grow"
+                class="form-control rounded hvr-grow tu--input"
                 placeholder="Search"
                 id="search-keyboard"
               />
               <button
-                class="bg-primary text-white text-uppercase rounded w-100 hvr-rectangle-out"
+                class="bg-primary text-white text-uppercase rounded w-100 hvr-rectangle-out tu--button"
               >
                 Search
               </button>
             </div>
           </form>
           <button
-            class="bg-button--white rounded mx-auto px-5 py-2 hvr-outline-out"
+            class="bg-button--white rounded mx-auto px-5 py-2 hvr-outline-out tu--button"
           >
             How it works
           </button>
         </section>
-        <section class="d-none d-md-block bg-white my-4 py-4" id="how-it-works">
+        <section class="bg-white my-4 py-4">
           <h3 class="text-primary text-uppercase text-center font-weight-bold">
             TU Dentista works in four simple steps:
           </h3>
           <div class="row w-100">
             <div class="col-12 col-lg-6">
-              <div class="card text-center p-4 m-4 border-none border-0">
-                <i class="fab fa-searchengin fa-7x card-img text-"></i>
+              <div class="card text-center p-4 m-4 border-none border-0 h-50">
+                <i class="fab fa-searchengin fa-7x card-img"></i>
                 <h4 class="card-title">Search</h4>
                 <p class="card-body">
                   It's simple. On the TU Dentista homepage, enter the name of a
@@ -141,8 +139,8 @@
                   link on the top menu to view the list of all schools.
                 </p>
               </div>
-              <div class="card text-center p-4 m-4 border-0">
-                <i class="fas fa-search-location fa-7x card-img mx-auto"></i>
+              <div class="card text-center p-4 m-4 border-0 h-50">
+                <i class="fas fa-search-location fa-7x card-img"></i>
                 <h4 class="card-title">Locate</h4>
                 <p class="card-body">
                   Get to see where the dentist is located by clicking on the
@@ -152,16 +150,16 @@
               </div>
             </div>
             <div class="col-12 col-lg-6">
-              <div class="card text-center p-4 m-4 border-0">
-                <i class="far fa-calendar-plus fa-7x card-img mx-auto"></i>
+              <div class="card text-center p-4 m-4 border-0 h-50">
+                <i class="far fa-calendar-plus fa-7x card-img"></i>
                 <h4 class="card-title">Make an appointment</h4>
                 <p class="card-body">
                   Call your favorite dentist and make an appointment with them.
                   Click on the call button.
                 </p>
               </div>
-              <div class="card text-center p-4 m-4 border-0">
-                <i class="fas fa-star-half-alt fa-7x card-img mx-auto"></i>
+              <div class="card text-center p-4 m-4 border-0 h-50">
+                <i class="fas fa-star-half-alt fa-7x card-img"></i>
                 <h4 class="card-title">Rate</h4>
                 <p class="card-body">
                   Rate the experience you had with them and help others to find
@@ -172,14 +170,13 @@
           </div>
         </section>
 
-        <section class="d-none d-md-block" id="highlights">
+        <section>
           <h6 class="d-none">Hightlights</h6>
-          <div
-            class="bg-orange card text-white px-6 py-4"
-            id="number-of-dentists"
-          >
+          <div class="bg-orange card text-white px-6 py-4">
             <div class="row">
-              <div class="col-8 p-4 d-flex flex-column">
+              <div
+                class="col-12 col-md-8 p-4 order-2 order-md-1 d-flex flex-column"
+              >
                 <h4 class="card-title">
                   Over 10,000 dentists registered with us
                 </h4>
@@ -187,12 +184,12 @@
                   Find a dentist by using our filtered search engine
                 </p>
                 <button
-                  class="bg-button--white text-orange font-weight-bold text-uppercase rounded py-1 hvr-outline-out"
+                  class="bg-button--white text-orange font-weight-bold text-uppercase rounded py-1 hvr-outline-out tu--button"
                 >
                   Find a dentist
                 </button>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-md-4 order-1 order-md-2">
                 <img
                   src="./img/map.jpg"
                   alt=""
@@ -201,9 +198,11 @@
               </div>
             </div>
           </div>
-          <div class="bg-indigo card text-white px-6 py-4" id="no-need">
+          <div class="bg-indigo card text-white px-6 py-4">
             <div class="row">
-              <div class="col-8 p-4 d-flex flex-column">
+              <div
+                class="col-12 col-md-8 p-4 order-2 order-md-1 d-flex flex-column"
+              >
                 <h4 class="card-title">
                   No need to travel to find a school in the country
                 </h4>
@@ -211,12 +210,12 @@
                   Just press or click on the search button and You're all set
                 </p>
                 <button
-                  class="bg-button--white text-indigo font-weight-bold text-uppercase py-1 hvr-outline-out"
+                  class="bg-button--white text-indigo font-weight-bold text-uppercase py-1 hvr-outline-out tu--button"
                 >
                   Find a school near you
                 </button>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-md-4 order-1 order-md-2">
                 <img
                   src="./img/travel.jpg"
                   alt=""
@@ -225,9 +224,11 @@
               </div>
             </div>
           </div>
-          <div class="bg-blue card text-white px-6 py-4" id="anytime-anywhere">
+          <div class="bg-blue card text-white px-6 py-4">
             <div class="row p-2">
-              <div class="col-8 p-4 d-flex flex-column">
+              <div
+                class="col-12 col-md-8 p-4 order-2 order-md-1 d-flex flex-column"
+              >
                 <h4 class="card-title mt-lg-4">Anytime Anywhere Any way!</h4>
                 <p class="card-body px-0 my-lg-4 align-self-center">
                   Very convenient platforms that cut across any device including
@@ -235,11 +236,11 @@
                   your app store.
                 </p>
               </div>
-              <div class="col-4 d-flex">
+              <div class="col-12 col-md-4 order-1 order-md-2 d-flex">
                 <img
                   src="./img/iphone-mockup.png"
                   alt=""
-                  class="card-img img-fluid mx-auto"
+                  class="card-img img-fluid mx-auto w-50"
                 />
               </div>
             </div>
@@ -247,75 +248,79 @@
         </section>
       </main>
 
-      <footer class="d-none d-md-block bg-black text-white">
-        <section class="py-4" id="footer--links">
+      <footer class="bg-black text-white">
+        <section class="py-4">
           <h6 class="d-none">Internal links</h6>
           <ul
-            class="row w-90 d-flex justify-content-between p-2 border-top border-bottom mx-auto text-uppercase"
-            id="location-links"
+            class="row w-90 d-flex p-2 border-top border-bottom mx-auto text-uppercase internal--links"
           >
-            <li class="align-self-center">
-              <a href="#" class="hvr-grow">Home</a>
-            </li>
-            <li class="align-self-center">
-              <a href="#" class="hvr-grow">Search</a>
-            </li>
-            <li class="align-self-center">
-              <a href="#" class="hvr-grow">About us</a>
-            </li>
-            <li class="align-self-center">
-              <a href="#" class="hvr-grow">Advertise</a>
-            </li>
-            <li>
-              <a href="#" class="hvr-grow">
-                <i
-                  class="fas fa-map-marker-alt fa-2x rounded-circle px-4 py-3"
-                  id="location-icon"
-                >
-                </i>
-              </a>
-            </li>
-            <li class="align-self-center">
-              <a href="#" class="hvr-grow">Facebook</a>
-            </li>
-            <li class="align-self-center">
-              <a href="#" class="hvr-grow">Twitter</a>
-            </li>
-            <li class="align-self-center">
-              <a href="#" class="hvr-grow">Blog</a>
-            </li>
-            <li class="align-self-center">
-              <a href="#" class="hvr-grow">Google+</a>
-            </li>
+            <div class="col-12 col-md-5 d-flex justify-content-between">
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Home</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Search</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">About us</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Advertise</a>
+              </li>
+            </div>
+            <div class="col-12 col-md-2 text-center my-2">
+              <li>
+                <a href="#" class="hvr-grow">
+                  <i
+                    class="fas fa-map-marker-alt fa-2x rounded-circle px-4 py-3 location-icon"
+                  >
+                  </i>
+                </a>
+              </li>
+            </div>
+            <div class="col-12 col-md-5 d-flex justify-content-between">
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Facebook</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Twitter</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Blog</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Google+</a>
+              </li>
+            </div>
           </ul>
         </section>
-        <section class="row py-4 px-4 mx-auto" id="subscribe-contact-about">
+        <section class="row py-4 px-4 mx-auto">
           <h6 class="d-none">Subscribe, Contact & About</h6>
-          <div class="col-4 text-center">
+          <div class="col-12 col-md-4 py-2 text-center">
             <h4 class="">Subscribe</h4>
-            <form class="bg-black rounded p-0 d-flex" id="subscribe">
-              <label class="d-none">Email</label>
+            <form class="bg-black rounded p-0 d-flex tu--form-subscribe">
+              <label class="d-none tu--label">Email</label>
               <input
-                class="w-60 m-0 p-0 border-0 hvr-grow"
+                class="w-60 m-0 p-0 border-0 hvr-grow tu--input"
                 type="text"
                 placeholder="you@example.com"
               />
               <button
-                class="flex-fill m-0 bg-footer--gray text-white border-0 hvr-trim"
+                class="flex-fill m-0 bg-footer--gray text-white border-0 hvr-trim tu--button"
               >
                 send
               </button>
             </form>
           </div>
-          <div class="col-4 text-center">
-            <h4 class="">Contact</h4>
+          <div class="col-12 col-md-4 py-2 text-center">
+            <h4>Contact</h4>
             <p>Have a question?</p>
-            <a href="" id="contact-email" class="hvr-grow"
-              >questions@tudentista.com</a
-            >
+            <a href="#" class="hvr-grow">
+              questions@tudentista.com
+            </a>
           </div>
-          <div class="col-4 text-center">
-            <h4 class="">About</h4>
+          <div class="col-12 col-md-4 text-center">
+            <h4>About</h4>
             <p>
               Tu Dentista is an online platform that helps to find the best and
               more suitable dentist your you inside our country.
@@ -323,17 +328,24 @@
           </div>
         </section>
         <section
-          class="bg-footer--gray d-flex justify-content-between align-items-center p-2"
-          id="social-and-copyright"
+          class="bg-footer--gray d-flex flex-column flex-md-row justify-content-between align-items-center p-2"
         >
           <h6 class="d-none">Social links and legend</h6>
           <ul class="row align-self-center">
-            <li><i class="mx-1 fab fa-facebook-f fa-2x hvr-grow"></i></li>
-            <li><i class="mx-1 fab fa-twitter fa-2x hvr-grow"></i></li>
-            <li><i class="mx-1 fab fa-google-plus-g fa-2x hvr-grow"></i></li>
-            <li><i class="mx-1 fab fa-instagram fa-2x hvr-grow"></i></li>
+            <li>
+              <i class="mx-1 fab fa-facebook-f fa-2x hvr-grow"></i>
+            </li>
+            <li>
+              <i class="mx-1 fab fa-twitter fa-2x hvr-grow"></i>
+            </li>
+            <li>
+              <i class="mx-1 fab fa-google-plus-g fa-2x hvr-grow"></i>
+            </li>
+            <li>
+              <i class="mx-1 fab fa-instagram fa-2x hvr-grow"></i>
+            </li>
           </ul>
-          <h6 class="" id="footer-brand">
+          <h6>
             TU Dentista 2020. All rights reserved. Powered by Bootstrap
             <i class="mx-1 fab fa-bootstrap"></i>
           </h6>

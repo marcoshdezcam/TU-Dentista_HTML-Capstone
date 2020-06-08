@@ -1,16 +1,56 @@
-@import '../node_modules/hover.css/scss/options';
-@import 'customVariables';
-@import 'customMixins';
-@import 'customFonts';
+@import "../node_modules/hover.css/scss/options";
+@import "customVariables";
+@import "customMixins";
+@import "customFonts";
 
-#navbar--main {
+nav {
   .nav--icon {
     color: #fff;
   }
 
-  .button--text {
+  .tu--nav--button {
     font: bold 1.4rem/1.5rem $Oswald;
   }
+}
+
+.tu--label {
+  font-family: $Cabin;
+}
+
+.tu--button {
+  font-family: $Oswald;
+}
+
+.tu--select,
+.tu--input {
+  font-family: $Josefin;
+}
+
+h1 {
+  font-family: $Cabin;
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  font-family: $Josefin;
+}
+
+h4,
+h5 {
+  font-family: $Cabin;
+}
+
+p {
+  font-family: $Catamaran;
+}
+
+a {
+  font-family: $Josefin;
+}
+
+.card {
+  border: none;
 }
 
 @include slideNavBar(25vh, 30%);
@@ -20,46 +60,28 @@
 @include profile();
 
 footer {
+  a {
+    font-family: $Oswald;
+  }
+
   a:hover {
     text-decoration: none;
   }
-}
 
-footer ul {
-  list-style-type: none;
-}
+  .internal--links {
+    list-style-type: none;
+  }
 
-#location-links {
-  font: 300 1rem/1.2rem $Oswald;
-
-  #location-icon {
+  .location-icon {
     border: 2px solid #dee2e6;
   }
-}
 
-#subscribe-contact-about {
-  h4 {
-    font: 400 1.8rem/2.2rem $Cabin;
-  }
-
-  p {
-    font: 300 1.1rem/1.3rem $Catamaran;
-  }
-
-  #contact-email {
-    font: 300 1rem/1.2rem $Oswald;
-  }
-
-  #subscribe {
+  .tu--form-subscribe {
     border: 2px solid #dee2e6;
-    font: 300 1.1rem/2.5rem $Oswald;
+    height: 45px;
   }
 }
 
-#footer-brand {
-  font: 400 1.2rem/1.5rem $Cabin;
-}
-
-@import '../node_modules/hover.css/scss/hover';
-@import '../node_modules/bootstrap/scss/bootstrap';
-@import 'responsive';
+@import "../node_modules/hover.css/scss/hover";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "responsive";

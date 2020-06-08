@@ -1,5 +1,5 @@
 @include media-breakpoint-down(sm) {
-  #navbar--main {
+  nav {
     height: 25vh;
   }
 
@@ -7,8 +7,8 @@
     margin-top: 25vh;
   }
 
-  #profile--page {
-    #img--profile {
+  .profile--page {
+    .img--profile {
       width: 100px;
       height: 100px;
       top: -55px;
@@ -27,9 +27,9 @@
     margin-top: 4rem;
   }
 
-  #main--page {
-    #hero {
-      height: 30rem;
+  .main--page {
+    .hero {
+      height: 25rem;
       background-position: 0% 50%;
 
       h1 {
@@ -42,12 +42,12 @@
     }
   }
 
-  #profile--page {
-    #img--cover {
+  .profile--page {
+    .img--cover {
       height: 350px;
     }
 
-    #profile--name {
+    .profile--name {
       top: 280px;
     }
   }
@@ -64,9 +64,9 @@
     margin-top: 3rem;
   }
 
-  #main--page {
-    #hero {
-      height: 40rem;
+  .main--page {
+    .hero {
+      height: 30rem;
       background-position: 5% 30%;
 
       h1 {
@@ -83,21 +83,21 @@
     }
   }
 
-  #profile--page {
-    #img--cover {
+  .profile--page {
+    .img--cover {
       height: 400px;
     }
 
-    #profile--name {
+    .profile--name {
       top: 330px;
     }
   }
 }
 
 @include media-breakpoint-up(xl) {
-  #main--page {
-    #hero {
-      height: 45rem;
+  .main--page {
+    .hero {
+      height: 35rem;
       background-position: 5% 10%;
     }
   }

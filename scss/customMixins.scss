@@ -24,87 +24,23 @@
 }
 
 @mixin index() {
-  #main--page {
-    #hero {
-      background: url('../img/hero-background.jpg') no-repeat;
+  .main--page {
+    .hero {
+      background: url("../img/hero-background.jpg") no-repeat;
       background-size: cover;
       background-position: 70% 50%;
       height: 75vh;
 
-      h1 {
-        font: bold 1.7rem/1.8rem $Cabin;
-        text-transform: uppercase;
-      }
-
-      h2 {
-        font: bold 1.2rem/1.4rem $Josefin;
-      }
-
       button,
       input {
         height: 45px;
-        font: 1.2rem/1.4rem $Oswald;
-      }
-
-      #search-keyboard {
-        font: 1rem/1.2rem $Cabin;
-      }
-    }
-
-    .card {
-      border: none;
-    }
-
-    #how-it-works {
-      .card {
-        height: 50%;
-      }
-
-      h3 {
-        font: 2rem/2.2rem $Josefin;
-      }
-
-      h4 {
-        font: bold 1.5rem/1.7rem $Cabin;
-      }
-
-      p {
-        font: 200 1.1rem/1.2rem $Cabin;
-      }
-    }
-
-    #highlights {
-      h4 {
-        font: 400 1.8rem/2.2rem $Cabin;
-      }
-
-      p {
-        font: 300 1.5rem/1.7rem $Catamaran;
-      }
-    }
-
-    #anytime-anywhere {
-      .card-img {
-        max-height: 400px;
-        max-width: 200px;
       }
     }
   }
 }
 
 @mixin results() {
-  #results--page {
-    h4 {
-      font: 300 1.2rem/1.4rem $Cabin;
-    }
-
-    label,
-    input,
-    select,
-    button {
-      font: 300 0.9rem/1.1rem $Oswald;
-    }
-
+  .results--page {
     button {
       width: 100px;
       height: 35px;
@@ -121,72 +57,53 @@
     }
 
     .card-title {
-      font: bold 1.5rem/1.7rem $Cabin;
+      font: 600 2rem/2.2rem $Cabin;
     }
 
     .card-text {
-      font: 300 1.2rem/1.5rem $Josefin;
+      font-family: $Josefin;
     }
   }
 }
 
 @mixin register() {
-  #register--page {
-    h1 {
-      font: bold 1.5rem/1.7rem $Cabin !important;
-    }
-
-    label {
-      font: 500 1.3rem/1.5rem $Josefin;
-    }
-
+  .register--page {
     input {
-      font: 300 1.1rem/1.3rem $Cabin;
       border-bottom: 3px solid rgb(122, 122, 122);
       border-style: dotted;
-    }
-
-    button {
-      font-family: $Josefin;
     }
   }
 }
 
 @mixin profile() {
-  #profile--page {
-    a {
-      font-family: $Josefin;
-    }
-
+  .profile--page {
     table {
       border-collapse: separate !important;
       border-spacing: 5px 5px !important;
     }
 
-    #img--cover {
+    .img-cover {
       object-fit: cover;
       height: 200px;
       -webkit-filter: blur(2px);
       filter: blur(2px);
     }
 
-    #profile--header {
+    .profile--header {
       position: relative;
     }
 
-    #profile--name {
-      font-family: $Cabin;
-      font-weight: bolder;
+    .profile--name {
       position: relative;
       top: 140px;
     }
 
-    #img--logo {
-      width: 120px;
-      height: 34px;
+    .img--logo {
+      width: 130px;
+      height: 38px;
     }
 
-    #img--profile {
+    .img--profile {
       width: 150px;
       height: 150px;
       border-radius: 50%;
@@ -196,7 +113,7 @@
       top: -100px;
     }
 
-    #profile--map {
+    .profile--map {
       width: 100%;
       height: 400px;
     }

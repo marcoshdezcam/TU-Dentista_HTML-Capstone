@@ -23,11 +23,42 @@
   src: url("../fonts/Teko/Teko.eot");
   src: url("../fonts/Teko/Teko.eot?#iefix") format("embedded-opentype"), url("../fonts/Teko/Teko.woff2") format("woff2"), url("../fonts/Teko/Teko.woff") format("woff"), url("../fonts/Teko/Teko.ttf") format("truetype"), url("../fonts/Teko/Teko.svg#Teko-Heading") format("svg"); }
 
-#navbar--main .nav--icon {
+nav .nav--icon {
   color: #fff; }
 
-#navbar--main .button--text {
+nav .tu--nav--button {
   font: bold 1.4rem/1.5rem "Oswald-Button", Fallback, sans-serif; }
+
+.tu--label {
+  font-family: "Cabin-Heading", Fallback, sans-serif; }
+
+.tu--button {
+  font-family: "Oswald-Button", Fallback, sans-serif; }
+
+.tu--select,
+.tu--input {
+  font-family: "Josefin-Heading", Fallback, sans-serif; }
+
+h1 {
+  font-family: "Cabin-Heading", Fallback, sans-serif;
+  text-transform: uppercase; }
+
+h2,
+h3 {
+  font-family: "Josefin-Heading", Fallback, sans-serif; }
+
+h4,
+h5 {
+  font-family: "Cabin-Heading", Fallback, sans-serif; }
+
+p {
+  font-family: "Catamaran-Content", Fallback, sans-serif; }
+
+a {
+  font-family: "Josefin-Heading", Fallback, sans-serif; }
+
+.card {
+  border: none; }
 
 .navbar-collapse {
   position: absolute;
@@ -49,116 +80,59 @@
   top: 25vh;
   right: 0; }
 
-#main--page #hero {
+.main--page .hero {
   background: url("../img/hero-background.jpg") no-repeat;
   background-size: cover;
   background-position: 70% 50%;
   height: 75vh; }
-  #main--page #hero h1 {
-    font: bold 1.7rem/1.8rem "Cabin-Heading", Fallback, sans-serif;
-    text-transform: uppercase; }
-  #main--page #hero h2 {
-    font: bold 1.2rem/1.4rem "Josefin-Heading", Fallback, sans-serif; }
-  #main--page #hero button,
-  #main--page #hero input {
-    height: 45px;
-    font: 1.2rem/1.4rem "Oswald-Button", Fallback, sans-serif; }
-  #main--page #hero #search-keyboard {
-    font: 1rem/1.2rem "Cabin-Heading", Fallback, sans-serif; }
+  .main--page .hero button,
+  .main--page .hero input {
+    height: 45px; }
 
-#main--page .card {
-  border: none; }
-
-#main--page #how-it-works .card {
-  height: 50%; }
-
-#main--page #how-it-works h3 {
-  font: 2rem/2.2rem "Josefin-Heading", Fallback, sans-serif; }
-
-#main--page #how-it-works h4 {
-  font: bold 1.5rem/1.7rem "Cabin-Heading", Fallback, sans-serif; }
-
-#main--page #how-it-works p {
-  font: 200 1.1rem/1.2rem "Cabin-Heading", Fallback, sans-serif; }
-
-#main--page #highlights h4 {
-  font: 400 1.8rem/2.2rem "Cabin-Heading", Fallback, sans-serif; }
-
-#main--page #highlights p {
-  font: 300 1.5rem/1.7rem "Catamaran-Content", Fallback, sans-serif; }
-
-#main--page #anytime-anywhere .card-img {
-  max-height: 400px;
-  max-width: 200px; }
-
-#results--page h4 {
-  font: 300 1.2rem/1.4rem "Cabin-Heading", Fallback, sans-serif; }
-
-#results--page label,
-#results--page input,
-#results--page select,
-#results--page button {
-  font: 300 0.9rem/1.1rem "Oswald-Button", Fallback, sans-serif; }
-
-#results--page button {
+.results--page button {
   width: 100px;
   height: 35px;
   margin-top: auto; }
 
-#results--page .card {
+.results--page .card {
   background-color: #457db4;
   opacity: 1; }
 
-#results--page .card:hover {
+.results--page .card:hover {
   opacity: 0.7; }
 
-#results--page .card-title {
-  font: bold 1.5rem/1.7rem "Cabin-Heading", Fallback, sans-serif; }
+.results--page .card-title {
+  font: 600 2rem/2.2rem "Cabin-Heading", Fallback, sans-serif; }
 
-#results--page .card-text {
-  font: 300 1.2rem/1.5rem "Josefin-Heading", Fallback, sans-serif; }
+.results--page .card-text {
+  font-family: "Josefin-Heading", Fallback, sans-serif; }
 
-#register--page h1 {
-  font: bold 1.5rem/1.7rem "Cabin-Heading", Fallback, sans-serif !important; }
-
-#register--page label {
-  font: 500 1.3rem/1.5rem "Josefin-Heading", Fallback, sans-serif; }
-
-#register--page input {
-  font: 300 1.1rem/1.3rem "Cabin-Heading", Fallback, sans-serif;
+.register--page input {
   border-bottom: 3px solid #7a7a7a;
   border-style: dotted; }
 
-#register--page button {
-  font-family: "Josefin-Heading", Fallback, sans-serif; }
-
-#profile--page a {
-  font-family: "Josefin-Heading", Fallback, sans-serif; }
-
-#profile--page table {
+.profile--page table {
   border-collapse: separate !important;
   border-spacing: 5px 5px !important; }
 
-#profile--page #img--cover {
+.profile--page .img-cover {
   object-fit: cover;
   height: 200px;
   -webkit-filter: blur(2px);
   filter: blur(2px); }
 
-#profile--page #profile--header {
+.profile--page .profile--header {
   position: relative; }
 
-#profile--page #profile--name {
-  font-family: "Cabin-Heading", Fallback, sans-serif;
-  font-weight: bolder;
+.profile--page .profile--name {
   position: relative;
   top: 140px; }
 
-#profile--page #img--logo {
-  width: 120px;
-  height: 34px; }
+.profile--page .img--logo {
+  width: 130px;
+  height: 38px; }
 
-#profile--page #img--profile {
+.profile--page .img--profile {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -167,39 +141,28 @@
   position: absolute;
   top: -100px; }
 
-#profile--page #profile--map {
+.profile--page .profile--map {
   width: 100%;
   height: 400px; }
 
-#profile--page .card-footer {
+.profile--page .card-footer {
   font-family: "Josefin-Heading", Fallback, sans-serif; }
+
+footer a {
+  font-family: "Oswald-Button", Fallback, sans-serif; }
 
 footer a:hover {
   text-decoration: none; }
 
-footer ul {
+footer .internal--links {
   list-style-type: none; }
 
-#location-links {
-  font: 300 1rem/1.2rem "Oswald-Button", Fallback, sans-serif; }
-  #location-links #location-icon {
-    border: 2px solid #dee2e6; }
+footer .location-icon {
+  border: 2px solid #dee2e6; }
 
-#subscribe-contact-about h4 {
-  font: 400 1.8rem/2.2rem "Cabin-Heading", Fallback, sans-serif; }
-
-#subscribe-contact-about p {
-  font: 300 1.1rem/1.3rem "Catamaran-Content", Fallback, sans-serif; }
-
-#subscribe-contact-about #contact-email {
-  font: 300 1rem/1.2rem "Oswald-Button", Fallback, sans-serif; }
-
-#subscribe-contact-about #subscribe {
+footer .tu--form-subscribe {
   border: 2px solid #dee2e6;
-  font: 300 1.1rem/2.5rem "Oswald-Button", Fallback, sans-serif; }
-
-#footer-brand {
-  font: 400 1.2rem/1.5rem "Cabin-Heading", Fallback, sans-serif; }
+  height: 45px; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -14000,11 +13963,11 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
     border-color: #dee2e6; } }
 
 @media (max-width: 767.98px) {
-  #navbar--main {
+  nav {
     height: 25vh; }
   main {
     margin-top: 25vh; }
-  #profile--page #img--profile {
+  .profile--page .img--profile {
     width: 100px;
     height: 100px;
     top: -55px; } }
@@ -14031,16 +13994,16 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
     right: 0; }
   main {
     margin-top: 4rem; }
-  #main--page #hero {
-    height: 30rem;
+  .main--page .hero {
+    height: 25rem;
     background-position: 0% 50%; }
-    #main--page #hero h1 {
+    .main--page .hero h1 {
       font: bold 2.4rem/2.8rem "Cabin-Heading", Fallback, sans-serif; }
-    #main--page #hero h2 {
+    .main--page .hero h2 {
       font: 1.5rem/1.7rem "Josefin-Heading", Fallback, sans-serif; }
-  #profile--page #img--cover {
+  .profile--page .img--cover {
     height: 350px; }
-  #profile--page #profile--name {
+  .profile--page .profile--name {
     top: 280px; } }
 
 @media (min-width: 992px) {
@@ -14065,21 +14028,21 @@ a.text-profile--orange:hover, a.text-profile--orange:focus {
     right: 0; }
   main {
     margin-top: 3rem; }
-  #main--page #hero {
-    height: 40rem;
+  .main--page .hero {
+    height: 30rem;
     background-position: 5% 30%; }
-    #main--page #hero h1 {
+    .main--page .hero h1 {
       font: bold 2.5rem/2.6rem "Cabin-Heading", Fallback, sans-serif; }
-    #main--page #hero h2 {
+    .main--page .hero h2 {
       font: 2rem/2.1em "Josefin-Heading", Fallback, sans-serif; }
-    #main--page #hero #search--wrapper {
+    .main--page .hero #search--wrapper {
       width: 50% !important; }
-  #profile--page #img--cover {
+  .profile--page .img--cover {
     height: 400px; }
-  #profile--page #profile--name {
+  .profile--page .profile--name {
     top: 330px; } }
 
 @media (min-width: 1200px) {
-  #main--page #hero {
-    height: 45rem;
+  .main--page .hero {
+    height: 35rem;
     background-position: 5% 10%; } }
