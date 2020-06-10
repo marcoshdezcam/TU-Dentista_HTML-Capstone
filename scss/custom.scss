@@ -1,0 +1,87 @@
+@import "../node_modules/hover.css/scss/options";
+@import "customVariables";
+@import "customMixins";
+@import "customFonts";
+
+nav {
+  .nav--icon {
+    color: #fff;
+  }
+
+  .tu--nav--button {
+    font: bold 1.4rem/1.5rem $Oswald;
+  }
+}
+
+.tu--label {
+  font-family: $Cabin;
+}
+
+.tu--button {
+  font-family: $Oswald;
+}
+
+.tu--select,
+.tu--input {
+  font-family: $Josefin;
+}
+
+h1 {
+  font-family: $Cabin;
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  font-family: $Josefin;
+}
+
+h4,
+h5 {
+  font-family: $Cabin;
+}
+
+p {
+  font-family: $Catamaran;
+}
+
+a {
+  font-family: $Josefin;
+}
+
+.card {
+  border: none;
+}
+
+@include slideNavBar(25vh, 30%);
+@include index();
+@include results();
+@include register();
+@include profile();
+
+footer {
+  a {
+    font-family: $Oswald;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .internal--links {
+    list-style-type: none;
+  }
+
+  .location-icon {
+    border: 2px solid #dee2e6;
+  }
+
+  .tu--form-subscribe {
+    border: 2px solid #dee2e6;
+    height: 45px;
+  }
+}
+
+@import "../node_modules/hover.css/scss/hover";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "responsive";

@@ -1,0 +1,104 @@
+@include media-breakpoint-down(sm) {
+  nav {
+    height: 25vh;
+  }
+
+  main {
+    margin-top: 25vh;
+  }
+
+  .profile--page {
+    .img--profile {
+      width: 100px;
+      height: 100px;
+      top: -55px;
+    }
+  }
+}
+
+@include media-breakpoint-only(md) {
+  #nav--logo {
+    width: 80px;
+  }
+
+  @include slideNavBar(4rem, 12%);
+
+  main {
+    margin-top: 4rem;
+  }
+
+  .main--page {
+    .hero {
+      height: 25rem;
+      background-position: 0% 50%;
+
+      h1 {
+        font: bold 2.4rem/2.8rem $Cabin;
+      }
+
+      h2 {
+        font: 1.5rem/1.7rem $Josefin;
+      }
+    }
+  }
+
+  .profile--page {
+    .img--cover {
+      height: 350px;
+    }
+
+    .profile--name {
+      top: 280px;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  #nav--logo {
+    width: 80px;
+  }
+
+  @include slideNavBar(3rem, 10%);
+
+  main {
+    margin-top: 3rem;
+  }
+
+  .main--page {
+    .hero {
+      height: 30rem;
+      background-position: 5% 30%;
+
+      h1 {
+        font: bold 2.5rem/2.6rem $Cabin;
+      }
+
+      h2 {
+        font: 2rem/2.1em $Josefin;
+      }
+
+      #search--wrapper {
+        width: 50% !important;
+      }
+    }
+  }
+
+  .profile--page {
+    .img--cover {
+      height: 400px;
+    }
+
+    .profile--name {
+      top: 330px;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .main--page {
+    .hero {
+      height: 35rem;
+      background-position: 5% 10%;
+    }
+  }
+}

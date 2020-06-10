@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>YOUR Dentist - Directory of dentists near you</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="Marcos Hernández Campos" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="fontawesome/all.min.css" />
+  </head>
+  <body>
+    <div class="container-lg p-0">
+      <nav
+        class="navbar flex-column flex-md-row align-content-center justify-content-around justify-content-md-between navbar-light bg-primary fixed-top navbar--main"
+      >
+        <a class="navbar-brand mx-auto mx-md-1" href="index.html">
+          <img
+            src="img/logo_TU-Dentista.png"
+            alt="Logo"
+            class="p-0 m-auto img-fluid hvr-grow"
+            id="nav--logo"
+            width="120"
+          />
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a
+              class="nav-link text-white text-uppercase active"
+              href="index.html"
+            >
+              <i class="fas fa-home fa-2x nav--icon hvr-grow">
+                <span class="d-none d-lg-inline tu--nav--button">Home</span>
+              </i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-uppercase" href="results.html">
+              <i class="fas fa-teeth-open fa-2x nav--icon hvr-grow">
+                <span class="d-none d-lg-inline tu--nav--button">Dentists</span>
+              </i>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white text-uppercase" href="register.html">
+              <i class="fas fa-user-plus fa-2x nav--icon hvr-grow">
+                <span class="d-none d-lg-inline tu--nav--button">Register</span>
+              </i>
+            </a>
+          </li>
+          <li>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars fa-2x nav--icon hvr-grow"></i>
+            </button>
+            <div
+              class="collapse navbar-collapse bg-primary p-2 text-center align-content-between"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a
+                    class="nav-link text-uppercase text-white tu--nav--button hvr-grow"
+                    href="#"
+                    >Blog</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-uppercase text-white tu--nav--button hvr-grow"
+                    href="#"
+                    >About</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <main class="px-xl-4 register--page">
+        <form action="action_page.php" method="POST" class="p-4 p-md-6 m-lg-6">
+          <h1 class="text-center text-uppercase">Register a new Dentist</h1>
+          <div class="form-group">
+            <label for="input--FirstName" class="tu--label">First name:</label>
+            <input
+              type="text"
+              class="form-control bg-wrapper--white hvr-grow tu--input"
+              id="input--FirstName"
+              placeholder="Enter your first name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="input--LastName" class="tu--label">Last name:</label>
+            <input
+              type="text"
+              class="form-control bg-wrapper--white hvr-grow tu--input"
+              id="input--LastName"
+              placeholder="Enter your last name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="input--Specialty" class="tu--label">Specialty:</label>
+            <select
+              class="form-control bg-wrapper--white hvr-grow tu--select"
+              id="input--Specialty"
+            >
+              <option selected="selected">Select your specialty</option>
+              <option>Endodontics</option>
+              <option>Orthodontics</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="input--Email" class="tu--label">Email:</label>
+            <input
+              type="email"
+              class="form-control bg-wrapper--white hvr-grow tu--input"
+              id="input--Email"
+              placeholder="Enter a valid email adress"
+            />
+          </div>
+          <div class="form-group">
+            <label for="input--Username" class="tu--label">Username:</label>
+            <input
+              type="text"
+              class="form-control bg-wrapper--white hvr-grow tu--input"
+              id="input--Username"
+              placeholder="Enter your username"
+            />
+          </div>
+          <div class="form-group">
+            <label for="input--State" class="tu--label">State:</label>
+            <select
+              class="form-control bg-wrapper--white hvr-grow tu--select"
+              id="input--State"
+            >
+              <option selected="selected">Select your state</option>
+              <option>Puebla</option>
+              <option>CDMX</option>
+              <option>Veracruz</option>
+              <option>Oaxaca</option>
+              <option>Chiapas</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="input--Password" class="tu--label">Password:</label>
+            <input
+              type="password"
+              class="form-control bg-wrapper--white hvr-grow tu--input"
+              id="input--Password"
+              placeholder="At least 8 characters"
+            />
+          </div>
+          <div class="form-group">
+            <label for="input--PasswordConfirm" class="tu--label"
+              >Confirm password:</label
+            >
+            <input
+              type="password"
+              class="form-control bg-wrapper--white hvr-grow tu--input"
+              id="input--PasswordConfirm"
+              placeholder="Repeat the same password"
+            />
+          </div>
+          <button
+            type="submit"
+            class="btn btn-primary my-2 hvr-grow tu--button"
+          >
+            Submit
+          </button>
+          <button type="reset" class="btn btn-blue my-2 hvr-grow tu--button">
+            Reset
+          </button>
+        </form>
+      </main>
+
+      <footer class="bg-black text-white">
+        <section class="py-4">
+          <h6 class="d-none">Internal links</h6>
+          <ul
+            class="row w-90 d-flex p-2 border-top border-bottom mx-auto text-uppercase internal--links"
+          >
+            <div class="col-12 col-md-5 d-flex justify-content-between">
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Home</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Search</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">About us</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Advertise</a>
+              </li>
+            </div>
+            <div class="col-12 col-md-2 text-center my-2">
+              <li>
+                <a href="#" class="hvr-grow">
+                  <i
+                    class="fas fa-map-marker-alt fa-2x rounded-circle px-4 py-3 location-icon"
+                  >
+                  </i>
+                </a>
+              </li>
+            </div>
+            <div class="col-12 col-md-5 d-flex justify-content-between">
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Facebook</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Twitter</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Blog</a>
+              </li>
+              <li class="align-self-center">
+                <a href="#" class="hvr-grow">Google+</a>
+              </li>
+            </div>
+          </ul>
+        </section>
+        <section class="row py-4 px-4 mx-auto">
+          <h6 class="d-none">Subscribe, Contact & About</h6>
+          <div class="col-12 col-md-4 py-2 text-center">
+            <h4 class="">Subscribe</h4>
+            <form class="bg-black rounded p-0 d-flex tu--form-subscribe">
+              <label class="d-none tu--label">Email</label>
+              <input
+                class="w-60 m-0 p-0 border-0 hvr-grow tu--input"
+                type="text"
+                placeholder="you@example.com"
+              />
+              <button
+                class="flex-fill m-0 bg-footer--gray text-white border-0 hvr-trim tu--button"
+              >
+                send
+              </button>
+            </form>
+          </div>
+          <div class="col-12 col-md-4 py-2 text-center">
+            <h4>Contact</h4>
+            <p>Have a question?</p>
+            <a href="#" class="hvr-grow">
+              questions@tudentista.com
+            </a>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <h4>About</h4>
+            <p>
+              Tu Dentista is an online platform that helps to find the best and
+              more suitable dentist your you inside our country.
+            </p>
+          </div>
+        </section>
+        <section
+          class="bg-footer--gray d-flex flex-column flex-md-row justify-content-between align-items-center p-2"
+        >
+          <h6 class="d-none">Social links and legend</h6>
+          <ul class="row align-self-center">
+            <li>
+              <i class="mx-1 fab fa-facebook-f fa-2x hvr-grow"></i>
+            </li>
+            <li>
+              <i class="mx-1 fab fa-twitter fa-2x hvr-grow"></i>
+            </li>
+            <li>
+              <i class="mx-1 fab fa-google-plus-g fa-2x hvr-grow"></i>
+            </li>
+            <li>
+              <i class="mx-1 fab fa-instagram fa-2x hvr-grow"></i>
+            </li>
+          </ul>
+          <h6>
+            TU Dentista 2020. All rights reserved. Powered by Bootstrap
+            <i class="mx-1 fab fa-bootstrap"></i>
+          </h6>
+        </section>
+      </footer>
+    </div>
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

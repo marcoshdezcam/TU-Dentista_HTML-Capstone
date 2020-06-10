@@ -1,0 +1,67 @@
+$container-max-widths: (
+  sm: 768px,
+  md: 1024px,
+  lg: 1310px,
+  xl: 1600px,
+);
+
+$theme-colors: (
+  "primary": #d4574a,
+  "danger": #f61d07,
+  "orange": #e17e65,
+  "indigo": #97a4a5,
+  "blue": #519bd7,
+  "black": #000,
+  "filter--gray": #eee,
+  "footer--gray":  #1f1f1f,
+  "button--white": rgb(255, 255, 255),
+  "button--blue": #457db4,
+  "button--yellow": #e5ab5a,
+  "wrapper--white": rgba(206, 201, 201, 0.802),
+  "profile--orange": #e17e65ad
+);
+
+$yellow: #e5ac5e;
+
+$spacer: 1rem;
+$spacers: (
+  "0": 0,
+  "1": ($spacer * 0.25),
+  "2": ($spacer * 0.5),
+  "3": $spacer,
+  "4": ($spacer * 1.5),
+  "5": ($spacer * 3),
+  "6": ($spacer * 5)
+);
+
+$sizes: ();
+$sizes: (
+  "25": 25%,
+  "35": 35%,
+  "40": 40%,
+  "50": 50%,
+  "60": 60%,
+  "75": 75%,
+  "80": 80%,
+  "90": 90%,
+  "100": 100%,
+  "auto": auto
+);
+
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-transitions: true;
+$enable-responsive-font-sizes: true;
+
+$primaryColor: #fff;
+$secondaryColor: #97a4a5;
+$highlightColor: #d4574a;
+$activeColor: #519bd7;
+$shadowColor: rgba(0, 0, 0, 0.6);
+
+$Cabin: 'Cabin-Heading', Fallback, sans-serif;
+$Josefin: 'Josefin-Heading', Fallback, sans-serif;
+$Catamaran: 'Catamaran-Content', Fallback, sans-serif;
+$Oswald: 'Oswald-Button', Fallback, sans-serif;
+$Teko: 'Teko-Button', Fallback, sans-serif;
